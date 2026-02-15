@@ -3,7 +3,7 @@
 
 <html lang="ko">
 <head>
-<meta content="_csrf" name="_csrf_parameter"/><meta content="X-CSRF-TOKEN" name="_csrf_header"/><meta content="4e40ccf8-125f-40d0-ac0d-672537e08a0d" name="_csrf"/>
+<meta content="_csrf" name="_csrf_parameter"/><meta content="X-CSRF-TOKEN" name="_csrf_header"/><meta content="8bf2a754-d6e8-4dfa-8d66-6f003b199c7f" name="_csrf"/>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"/>
@@ -40,7 +40,7 @@
 <script>
 		var site_id = 1;
 		var getIp = '20.130.1.171'
-		var getId = 'BA57DC5EF4C82BB51B55A33CE2A21511'
+		var getId = 'FF363D97C5168C3966A89CFA26191935'
 	</script>
 </head>
 <body>
