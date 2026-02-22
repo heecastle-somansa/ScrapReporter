@@ -17,7 +17,7 @@ window.TistoryBlog = {
     url: "https://gent.tistory.com",
     tistoryUrl: "https://gent.tistory.com",
     manageUrl: "https://gent.tistory.com/manage",
-    token: "8C0JfSKzZw8RSa4n8suIqbpaKDbewSoCYmdkLSjJeNDu2yCwty9CrPqGcZFAkkFb"
+    token: "SyYhzcNgKxQYbjuvaZPymZNJwpgnDQDN0QvV+7J0nu9C9COwrztDIdyw5laPxkWS"
 };
 var servicePath = "";
 var blogURL = "";</script>
