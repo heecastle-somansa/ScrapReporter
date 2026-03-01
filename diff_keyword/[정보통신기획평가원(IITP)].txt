@@ -3,7 +3,7 @@
 
 <html lang="ko">
 <head>
-<meta content="_csrf" name="_csrf_parameter"/><meta content="X-CSRF-TOKEN" name="_csrf_header"/><meta content="32fc7021-d4eb-4d54-be02-6f2d4a0ed5ad" name="_csrf"/>
+<meta content="_csrf" name="_csrf_parameter"/><meta content="X-CSRF-TOKEN" name="_csrf_header"/><meta content="395ccd52-9205-4325-83d3-b48d0cac944c" name="_csrf"/>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"/>
@@ -40,7 +40,7 @@
 <script>
 		var site_id = 1;
 		var getIp = '20.130.1.171'
-		var getId = 'CC82A9E4868674FE272076D210430254'
+		var getId = '72B340E68612ACE16EF83994AE51FD05'
 	</script>
 </head>
 <body>
@@ -1219,7 +1219,7 @@
 					</div>
 <div class="com_board_area sty2 m_info_slide_area">
 <div class="list">
-<a :href="getLink(item)" :key="idx" class="box" v-for="(item, idx) in  all_board_list">
+<a :href="getLink(item)" :key="idx" :target="item.board_seq == 991 ? '_blank' : null" class="box" v-for="(item, idx) in  BoardAllList">
 <div class="skeletion_loading" v-if="bbsloading">
 <div class="skeleton_img"></div>
 </div>
@@ -1229,7 +1229,7 @@
 <div class="new" v-if="item.new_yn === 'Y'">NEW</div>
 </div>
 </div>
-<div class="tit">{{item.title}}</div>
+<div class="tit">{{decodeHtmlEntities(item.title)}}</div>
 <div class="info_area">
 <div class="row">
 <div class="date">{{item.reg_dt}}</div>
