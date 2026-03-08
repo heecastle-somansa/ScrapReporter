@@ -133,8 +133,8 @@ function fnAnnoView(key){
 </script>
 </head>
 <body>
-<form id="loginSSo" method="post" name="loginSSo"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIyuWrb/w15XycbKl+cupxTnLnoWpBpuTIv8LuDAWY1k4CEPFLkBRWovD2EqtnhtzaqVG2S+jWURFbGaGYXXILgPqe497BpRErz7kFut5V93bx9r04RqnrfHbNaLazi8mJLVGi1Pash3+gug4zOxXCOIayuKCfXQVRVyYh0rcOo7qdQr3ZtDYmst8SlU1TtdxMQyQAzYq8XHGEbiIz2sf/9dPljp9P4KkKrq7jQcUhMSJIZSkxBCpSwxxZ9zKM6vVh275OASsQQWUQIqEodHVMUmgyExpe2SvgiJJtK2qwhuLqUo+eRV870K8sLmP79CEADNVzYj55EKinFJGAnNJUi3VSIRSMW9djSRjQoMVUqhglX3X04welK1kLNp6+rd6xDGh4uuTbEnWWDzXcZVh7stM406E3LX7WiktHob6/4MFzJ/PJBaU/dklkLp7w2IzZikMsGmM+A8+88LmpsvE5xWjgyJhTb1BsUxYwuPd/75uYLl/42x27aOrFDUypELt3XvQokidiZdCTsYx23TUFk0oPswNlDl5uavQgrd1WJcE="/>
-<input name="csSignature" type="hidden" value="/p21eW/XmaYelJl62oKVTA=="/>
+<form id="loginSSo" method="post" name="loginSSo"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIjrEkQe//MaCxCJz1phrK3wesOG5JSzx98JqBJnt7kr9PYIVk/PTvK8s5FWVVf7Ad4AKJh84x9I8L40vnkJtejMeadctHVlZdj0bBgMZ9mhKqPouZ2CSZS9GZzuxS4D1aPdYNArvtIisufJ7f0aC7vuuw9oQfy3YyfWHHGgJV+yG43umciRI0qoQc3LeuzGU20N8QqiXajgMWNPwhVGF3iXUZjcfMvwkiZ3OODJixv6pVBC/LDfsC6HjXpF8dfiM6GQD8oPhsFk0u9FrOt7r2JbvIfy2p9XJu6P+L1kJ2cOi89QABjrsv9RpX/4Wanyxil15eDnMF3fXOrfSlRhjRQCPJb+EMb4fFO+MfUZfendJewrzogbZf5NCFzuT4TF3DebHpCvShxO4JIiSiZqyGwTPztR68azGXWREz8If0dPQif5lozibttvkZZSZbgK03PM+nfSxl77L/yUeiKZMY3n4BvlRguF8uBqTcZG9O197iNVTYuE6hOeNZroPWClaaFRptWAh77vQEFTAwveBJZxIZ5T13ZbCrJj4Pm3v9yN8="/>
+<input name="csSignature" type="hidden" value="CqhWkUnbtYBiXoXFlYNTTg=="/>
 <input id="returnURL" name="returnURL" type="hidden" value=""/>
 <input id="userId" name="userId" type="hidden" value="">
 <input id="loginType" name="loginType" type="hidden" value=""/>
@@ -224,8 +224,8 @@ function fnAnnoView(key){
 <div class="table_set">
 <h3 class="txt_coop_001">공동연구공고 검색</h3>
 <div class="search">
-<form action="/pcmx/join/anno/annoList.do" method="post" onsubmit="return chk(this);"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIyuWrb/w15XycbKl+cupxTnLnoWpBpuTIv8LuDAWY1k4CEPFLkBRWovD2Eqtnhtza4hhejhOx8SFj05Cl3Lavnk1NWo1VpCn38WdvYRGtlfGu8IqaW5eFyGhgS/9ZnJQ/WgeiANMCEC23zdgJctu+dbCNXrl78xXuqDrZaim4yzlr4jXBSg7V2bvkhAGOuHTJhacfOmrdj89CUCW4jSuvQDBdEylQRPqT/q34jKK8iclJIg8EioRUbHeUPDmGPF42aTbX7daMFGXNXhYjL0Jztme28ZZoo7XmXokHhE72Yc6hYiGwxsOQsnrj+FBddv0bqJ3dRvR3aLO9zKRF2rRGmM7CA2JO1sNurrfjJEkCCMgHc9bvXh0qn3SCLKJUThFr41ziBDq43CT6JZOF2l/ZuESI/nByvj1bT9+3XN8ZE9GIefZSRIt3vgRiEYnYUdQN"/>
-<input name="csSignature" type="hidden" value="/p21eW/XmaYelJl62oKVTA=="/>
+<form action="/pcmx/join/anno/annoList.do" method="post" onsubmit="return chk(this);"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIjrEkQe//MaCxCJz1phrK3wesOG5JSzx98JqBJnt7kr9PYIVk/PTvK8s5FWVVf7Adeu+yVfJCuTLr7w9WBjPx+fqWFAUWV2zqdFHJTqlJkab3Y5kfq7mlmsMLWkDUQ6IlQD3UsYFZ9qx6Nzpk0Tjts7KJS7rEoN6ksrwcaBRKfByYuW0qquAtOZC4cEN+qj+ZFnUsf/4pGu3f8wM42JJt2aEBgFF1ZPI2D/6nDqS2RvBfGKeTygM2GPasGRmzRvWsMqfQOyAFMS1EAr8uxUIphdi5uLK+gdYdzKB5hhFoqfumxyGRp1D23kVdLuB101JVN8b7yI99XdjrcfO7H33YCs5Z19RXI//zXue0GpEqzF2XBNEKFHw+pukL+plninMZnCYaCr2UsEZbt598eYYMHWeKyFXeDDROHEiUQvJWwl0OwNyFotXDRfUq0ov316uS"/>
+<input name="csSignature" type="hidden" value="CqhWkUnbtYBiXoXFlYNTTg=="/>
 <script type="text/javascript">
 $(document).ready(function(){
     $('#searchStartDate').focus(function(){
@@ -282,7 +282,7 @@ $(document).ready(function(){
 <div class="table_set">
 <div class="total_page">
 <ul>
-<li><strong>Total</strong> : <span>2954</span></li>
+<li><strong>Total</strong> : <span>2955</span></li>
 <li class="ml10"><strong>Page</strong> : <span>1/296</span></li>
 </ul>
 <div class="txt_n">
@@ -314,6 +314,24 @@ $(document).ready(function(){
                                     
                                         
                                         
+                                    7211-2026-00003
+                                        
+                                    
+                                    </td>
+<td title="호남권 전략산업(광융합·에너지·AI 등) 기술 고도화 및 사업화">
+<div class="text_one_line">
+<a href="javascript:fnAnnoView('7211-2026-00003')">호남권 전략산업(광융합·에너지·AI 등) 기술 고도화 및 사업화</a>
+</div>
+</td>
+<td>2026-03-04</td>
+<td>2026-03-10</td>
+<td>공모접수중</td>
+</tr>
+<tr>
+<td>
+                                    
+                                        
+                                        
                                     7211-2026-00002
                                         
                                     
@@ -325,7 +343,7 @@ $(document).ready(function(){
 </td>
 <td>2026-02-24</td>
 <td>2026-03-03</td>
-<td>공모접수중</td>
+<td>마감</td>
 </tr>
 <tr>
 <td>
@@ -404,60 +422,6 @@ $(document).ready(function(){
                                     
                                         
                                         
-                                    7111-2026-00014
-                                        
-                                    
-                                    </td>
-<td title="Agentic Operation 기반 지능형 AMR/로봇 플랫폼을 위한 2D SLAM 장소 인식 고도화 및 상용화">
-<div class="text_one_line">
-<a href="javascript:fnAnnoView('7111-2026-00014')">Agentic Operation 기반 지능형 AMR/로봇 플랫폼을 위한 2D SLAM 장소 인식 고도화 및 상용화</a>
-</div>
-</td>
-<td>2026-02-09</td>
-<td>2026-02-12</td>
-<td>마감</td>
-</tr>
-<tr>
-<td>
-                                    
-                                        
-                                        
-                                    7111-2026-00012
-                                        
-                                    
-                                    </td>
-<td title="자율주행 축사 관리 로봇의 관제 시스템 개발">
-<div class="text_one_line">
-<a href="javascript:fnAnnoView('7111-2026-00012')">자율주행 축사 관리 로봇의 관제 시스템 개발</a>
-</div>
-</td>
-<td>2026-02-09</td>
-<td>2026-02-12</td>
-<td>마감</td>
-</tr>
-<tr>
-<td>
-                                    
-                                        
-                                        
-                                    7111-2026-00013
-                                        
-                                    
-                                    </td>
-<td title="자율주행로봇 현장 도입 최적화를 위한 시뮬레이션 및 자동 로그 기록이 가능한 관제 시스템">
-<div class="text_one_line">
-<a href="javascript:fnAnnoView('7111-2026-00013')">자율주행로봇 현장 도입 최적화를 위한 시뮬레이션 및 자동 로그 기록이 가능한 관제 시스템</a>
-</div>
-</td>
-<td>2026-02-09</td>
-<td>2026-02-12</td>
-<td>마감</td>
-</tr>
-<tr>
-<td>
-                                    
-                                        
-                                        
                                     7111-2026-00010
                                         
                                     
@@ -483,6 +447,42 @@ $(document).ready(function(){
 <td title="난임 시술임상 및 일상생활 데이터 기반 가임력 증진 및 임신 성공률 예측을 위한 핵심 기술 개발 ">
 <div class="text_one_line">
 <a href="javascript:fnAnnoView('7111-2026-00011')">난임 시술임상 및 일상생활 데이터 기반 가임력 증진 및 임신 성공률 예측을 위한 핵심 기술 개발 </a>
+</div>
+</td>
+<td>2026-02-09</td>
+<td>2026-02-12</td>
+<td>마감</td>
+</tr>
+<tr>
+<td>
+                                    
+                                        
+                                        
+                                    7111-2026-00009
+                                        
+                                    
+                                    </td>
+<td title="생체신호 기반 수면 모니터링 및 환경 관리 솔루션 개발">
+<div class="text_one_line">
+<a href="javascript:fnAnnoView('7111-2026-00009')">생체신호 기반 수면 모니터링 및 환경 관리 솔루션 개발</a>
+</div>
+</td>
+<td>2026-02-09</td>
+<td>2026-02-12</td>
+<td>마감</td>
+</tr>
+<tr>
+<td>
+                                    
+                                        
+                                        
+                                    7111-2026-00012
+                                        
+                                    
+                                    </td>
+<td title="자율주행 축사 관리 로봇의 관제 시스템 개발">
+<div class="text_one_line">
+<a href="javascript:fnAnnoView('7111-2026-00012')">자율주행 축사 관리 로봇의 관제 시스템 개발</a>
 </div>
 </td>
 <td>2026-02-09</td>
@@ -531,8 +531,8 @@ $(document).ready(function(){
 <div class="spot_2">
 <ul>
 <li>
-<form action="#sitelist1" method="get" name="site_form_list1" onsubmit="go_url('etri_siteurl'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIyuWrb/w15XycbKl+cupxTnLnoWpBpuTIv8LuDAWY1k4CEPFLkBRWovD2Eqtnhtza2GdoWTxTuC0v7epftuwwPQ==">
-<input name="csSignature" type="hidden" value="/p21eW/XmaYelJl62oKVTA==">
+<form action="#sitelist1" method="get" name="site_form_list1" onsubmit="go_url('etri_siteurl'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIjrEkQe//MaCxCJz1phrK3wesOG5JSzx98JqBJnt7kr9PYIVk/PTvK8s5FWVVf7AdRrFkJhgceZfHspAiRmWJVw==">
+<input name="csSignature" type="hidden" value="CqhWkUnbtYBiXoXFlYNTTg==">
 <fieldset>
 <legend>ETRI 직할부서 바로가기</legend>
 <label class="hidden" for="etri_siteurl">ETRI 직할부서 바로가기</label>
@@ -557,8 +557,8 @@ $(document).ready(function(){
 </input></input></form>
 </li>
 <li>
-<form action="#sitelist2" method="get" name="site_form_list2" onsubmit="go_url('etri_siteur2'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIyuWrb/w15XycbKl+cupxTnLnoWpBpuTIv8LuDAWY1k4CEPFLkBRWovD2Eqtnhtza2GdoWTxTuC0v7epftuwwPQ==">
-<input name="csSignature" type="hidden" value="/p21eW/XmaYelJl62oKVTA==">
+<form action="#sitelist2" method="get" name="site_form_list2" onsubmit="go_url('etri_siteur2'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIjrEkQe//MaCxCJz1phrK3wesOG5JSzx98JqBJnt7kr9PYIVk/PTvK8s5FWVVf7AdRrFkJhgceZfHspAiRmWJVw==">
+<input name="csSignature" type="hidden" value="CqhWkUnbtYBiXoXFlYNTTg==">
 <fieldset>
 <legend>ETRI SERVICE 바로가기</legend>
 <label class="hidden" for="etri_siteur2">ETRI SERVICE 바로가기</label>
@@ -581,8 +581,8 @@ $(document).ready(function(){
 </input></input></form>
 </li>
 <li>
-<form action="#sitelist3" method="get" name="site_form_list3" onsubmit="go_url('etri_siteur3'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIyuWrb/w15XycbKl+cupxTnLnoWpBpuTIv8LuDAWY1k4CEPFLkBRWovD2Eqtnhtza2GdoWTxTuC0v7epftuwwPQ=="/>
-<input name="csSignature" type="hidden" value="/p21eW/XmaYelJl62oKVTA=="/>
+<form action="#sitelist3" method="get" name="site_form_list3" onsubmit="go_url('etri_siteur3'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIjrEkQe//MaCxCJz1phrK3wesOG5JSzx98JqBJnt7kr9PYIVk/PTvK8s5FWVVf7AdRrFkJhgceZfHspAiRmWJVw=="/>
+<input name="csSignature" type="hidden" value="CqhWkUnbtYBiXoXFlYNTTg=="/>
 <fieldset>
 <legend>ETRI 유관기관 바로가기</legend>
 <label class="hidden" for="etri_siteur3">ETRI 유관기관 바로가기</label>
