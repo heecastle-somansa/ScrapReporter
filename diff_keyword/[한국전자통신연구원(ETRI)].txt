@@ -132,8 +132,8 @@ function fnAnnoView(key){
 </script>
 </head>
 <body>
-<form id="loginSSo" method="post" name="loginSSo"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIBqdHFnuFKh1EWDMAgWi1kIm0VS+krOV9HfOkoIIsgkbWw4CmURzjOLZsV6Ih6kHN35Yfr6WreLC4ntyYRlKCK0obFyX2S/OO9HRH/WsurAWLDh0MEn2zcAgNiW2NPKiuQ6gEkOSbGeWoEtHKLsAxk9DWvMX6UEMCGySAUHANX52C/R0d8BmQsOWg7pNV/5U5Qq9F9KOJD0EIJYwO9zFH4d2OgRVY0YtqH89OGIgLRtqJTruHRI8FCfnlA03KJu7iCvofW3/a01eQVuHa/0hMJvs3gu9WL3RnOqKrYLVLw79/ed5y9OzFVwANWDtBm08g6iHAXQPTr/10hi0/J7/wu3wFcwMCc1JL/zHwPxjYK64ypnGtOf1mvtCKOrCegwaUfnvR40G0Mn8j53T0gbRLV0XmsunJ+ClD3/WxK42q6rl89sgWF1oL52wJWLBc+HG2W7/hdih4VXEQJ6mgwYKJm8hlMrzgVAR+Vs6m56CvWrvQGqHd7XU4MQ46BboIeq9R8yMEfiF9pFBamj852/RlXijMfpsy5RBJSne0bmwHJz8="/>
-<input name="csSignature" type="hidden" value="NP+rdaJluiC3qQ/a7YUYng=="/>
+<form id="loginSSo" method="post" name="loginSSo"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIZN3bOtTHZyUkMKc9584ixUlDulITYc1FWoFGdrJGntVtOs5yikSMOxJTXw3o4QzArz6/0kdt90a2TBr0ZfYauZcshVyM1elpqfiwUkuhIh7AAyXrzxYHHOXmsubpsj8oCxpyHdCBPP4+I3bEI6PQCCc1r+diWaOMnLZdo1rW3tzSp8hZqwxS6NZZbQmR/SSBCLrLq574HGeSLS4Fwq6BfaLyUYrZ1z7IZPILpAKJaykuIVhmBgV/4HbX4PvlJxjfKZAzRJQUHaq3dvQRXccQxbrDtQjz+X6Q6hv8USGUatzwoyv5352rt/guMvU5FIejTeDosDh55h6RyAwCDS3mUFvd+z5MnYctbtbwVM4WLnIMrQ1aAnqCTZxFrgEHLtjEpPNhq+wji6rEmYfvl+OK2zNBLK6kv949l0DbESZa2rPf9ajUjjiZNgyF03ED7FuPWFMNlXXZV2lF+GcO1WSGYjmhVnTA5eU7LfGixxUwjcupvgpOlDNt8s8rhcT9t+oGC+KuOBZHEa4wiRCvCRbvlHDGcHIw1cOqJ5LgvnFwBGk="/>
+<input name="csSignature" type="hidden" value="w/sUr7bQKZcaq0UuoeHilw=="/>
 <input id="returnURL" name="returnURL" type="hidden" value=""/>
 <input id="userId" name="userId" type="hidden" value="">
 <input id="loginType" name="loginType" type="hidden" value=""/>
@@ -223,8 +223,8 @@ function fnAnnoView(key){
 <div class="table_set">
 <h3 class="txt_coop_001">공동연구공고 검색</h3>
 <div class="search">
-<form action="/pcmx/join/anno/annoList.do" method="post" onsubmit="return chk(this);"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIBqdHFnuFKh1EWDMAgWi1kIm0VS+krOV9HfOkoIIsgkbWw4CmURzjOLZsV6Ih6kHNADkrhZElJyIE66g5iNirWi5XvV/3WJu9w6g7bRBIxRXF0D6F+Yy4Fcc9x686LiTeyUS4YiHFwE9gZ8jyvztniHH79+IEY0lADoM8D13VBX+U7qvtFq/Ba15sUfkqZw5I1pYIaxgFbk0obqaaj1ozYn+YR9awyxoymAOeaz/QbzyD2anbncUuSvkVNzGKaeRmOVq0hBtn3vm9iuDnSdHnK3hhRFCV/K55RJJzJUN/nTZApxgdE1W//8xVLhZMzh4JakOhZhEdqyKulOCMaltkXd+Dt9SoNsOc+aIjC+oQwQg3iUrI2Yw3lkrAanDkp8N/+VTGQ52iFQDJsgpHghd8PgnglnpN/+XzQ0UmC95Bqt26pK+833TzsURIpntbWAP+"/>
-<input name="csSignature" type="hidden" value="NP+rdaJluiC3qQ/a7YUYng=="/>
+<form action="/pcmx/join/anno/annoList.do" method="post" onsubmit="return chk(this);"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIZN3bOtTHZyUkMKc9584ixUlDulITYc1FWoFGdrJGntVtOs5yikSMOxJTXw3o4QzAXvfb+szJ7yhHw5HmqRBz1KoeTbkcilrn0CraihIg2kIUEJbfKGl+sIHqZwBU0xLIv2KWFGn9LtEVKRVTOQFiMh6Vl5383rR5K1HxXoZpqfXuK8Raovn98fu4czCaN88GQJRNPG6G5j0JS20w44pVbSoqYfrGoCx+9L9ropxIn9YQ+ReXUzTVnet2DKv1isuDO8yI3jQUdYPcMMwt0oEW4UBKlCktOewK06BwX/7s4gFTUF4ZBwlUjpDKY94qAuJv9lk7M1av4YbJvpgAFj33fNixJtxneFke+SjvMW6AC9JFvcRvs8AKBk99W7yPXdNJVRqey/cMfyi5hy58DUrtly7IqRRLfm9A0Fd1wOSqfUmkDZ8iaI176u0bhQnn1ts3"/>
+<input name="csSignature" type="hidden" value="w/sUr7bQKZcaq0UuoeHilw=="/>
 <script type="text/javascript">
 $(document).ready(function(){
     $('#searchStartDate').focus(function(){
@@ -281,7 +281,7 @@ $(document).ready(function(){
 <div class="table_set">
 <div class="total_page">
 <ul>
-<li><strong>Total</strong> : <span>2955</span></li>
+<li><strong>Total</strong> : <span>2957</span></li>
 <li class="ml10"><strong>Page</strong> : <span>1/296</span></li>
 </ul>
 <div class="txt_n">
@@ -308,6 +308,42 @@ $(document).ready(function(){
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+                                    
+                                        
+                                        
+                                    2011-2026-00003
+                                        
+                                    
+                                    </td>
+<td title="무열성 신소재용 세라믹 필러 표면 처리 및 유변학적 특성 최적화">
+<div class="text_one_line">
+<a href="javascript:fnAnnoView('2011-2026-00003')">무열성 신소재용 세라믹 필러 표면 처리 및 유변학적 특성 최적화</a>
+</div>
+</td>
+<td>2026-04-01</td>
+<td>2026-04-06</td>
+<td>공모접수중</td>
+</tr>
+<tr>
+<td>
+                                    
+                                        
+                                        
+                                    2011-2026-00004
+                                        
+                                    
+                                    </td>
+<td title="차세대 패키징의 상호 보완형 IPL 적용 및 최적화">
+<div class="text_one_line">
+<a href="javascript:fnAnnoView('2011-2026-00004')">차세대 패키징의 상호 보완형 IPL 적용 및 최적화</a>
+</div>
+</td>
+<td>2026-04-01</td>
+<td>2026-04-06</td>
+<td>공모접수중</td>
+</tr>
 <tr>
 <td>
                                     
@@ -452,42 +488,6 @@ $(document).ready(function(){
 <td>2026-02-12</td>
 <td>마감</td>
 </tr>
-<tr>
-<td>
-                                    
-                                        
-                                        
-                                    7111-2026-00009
-                                        
-                                    
-                                    </td>
-<td title="생체신호 기반 수면 모니터링 및 환경 관리 솔루션 개발">
-<div class="text_one_line">
-<a href="javascript:fnAnnoView('7111-2026-00009')">생체신호 기반 수면 모니터링 및 환경 관리 솔루션 개발</a>
-</div>
-</td>
-<td>2026-02-09</td>
-<td>2026-02-12</td>
-<td>마감</td>
-</tr>
-<tr>
-<td>
-                                    
-                                        
-                                        
-                                    7111-2026-00012
-                                        
-                                    
-                                    </td>
-<td title="자율주행 축사 관리 로봇의 관제 시스템 개발">
-<div class="text_one_line">
-<a href="javascript:fnAnnoView('7111-2026-00012')">자율주행 축사 관리 로봇의 관제 시스템 개발</a>
-</div>
-</td>
-<td>2026-02-09</td>
-<td>2026-02-12</td>
-<td>마감</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -496,17 +496,17 @@ $(document).ready(function(){
 <div class="boardbtn">
 <div class="pagination">
 <strong>1</strong>
-<a href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=2">2</a>
-<a href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=3">3</a>
-<a href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=4">4</a>
-<a href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=5">5</a>
-<a href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=6">6</a>
-<a href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=7">7</a>
-<a href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=8">8</a>
-<a href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=9">9</a>
-<a href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=10">10</a>
-<a class="direction last" href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=2"><img alt="다음 10페이지" src="/pcmx/images/page_03.gif"/></a>
-<a class="direction" href="/pcmx/join/anno/annoList.do;pcmx=B3B96FE8E7681299C6ACBC1129D72D69?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=296"><img alt="마지막페이지" src="/pcmx/images/page_04.gif"/></a>
+<a href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=2">2</a>
+<a href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=3">3</a>
+<a href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=4">4</a>
+<a href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=5">5</a>
+<a href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=6">6</a>
+<a href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=7">7</a>
+<a href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=8">8</a>
+<a href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=9">9</a>
+<a href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=10">10</a>
+<a class="direction last" href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=2"><img alt="다음 10페이지" src="/pcmx/images/page_03.gif"/></a>
+<a class="direction" href="/pcmx/join/anno/annoList.do;pcmx=8FAABEF9E50FA4EB78C5395EB4359F0A?prgrs_sttus=&amp;keywords=&amp;searchWord=&amp;searchStartDate=&amp;searchEndDate=&amp;page=296"><img alt="마지막페이지" src="/pcmx/images/page_04.gif"/></a>
 </div>
 </div>
 </div>
@@ -531,8 +531,8 @@ $(document).ready(function(){
 <div class="spot_2">
 <ul>
 <li>
-<form action="#sitelist1" method="get" name="site_form_list1" onsubmit="go_url('etri_siteurl'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIBqdHFnuFKh1EWDMAgWi1kIm0VS+krOV9HfOkoIIsgkbWw4CmURzjOLZsV6Ih6kHNsiIHdD57weE7ZMrErON59A==">
-<input name="csSignature" type="hidden" value="NP+rdaJluiC3qQ/a7YUYng==">
+<form action="#sitelist1" method="get" name="site_form_list1" onsubmit="go_url('etri_siteurl'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIZN3bOtTHZyUkMKc9584ixUlDulITYc1FWoFGdrJGntVtOs5yikSMOxJTXw3o4QzASNMuUAtVi14fUoexqTBchg==">
+<input name="csSignature" type="hidden" value="w/sUr7bQKZcaq0UuoeHilw==">
 <fieldset>
 <legend>ETRI 직할부서 바로가기</legend>
 <label class="hidden" for="etri_siteurl">ETRI 직할부서 바로가기</label>
@@ -557,8 +557,8 @@ $(document).ready(function(){
 </input></input></form>
 </li>
 <li>
-<form action="#sitelist2" method="get" name="site_form_list2" onsubmit="go_url('etri_siteur2'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIBqdHFnuFKh1EWDMAgWi1kIm0VS+krOV9HfOkoIIsgkbWw4CmURzjOLZsV6Ih6kHNsiIHdD57weE7ZMrErON59A==">
-<input name="csSignature" type="hidden" value="NP+rdaJluiC3qQ/a7YUYng==">
+<form action="#sitelist2" method="get" name="site_form_list2" onsubmit="go_url('etri_siteur2'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIZN3bOtTHZyUkMKc9584ixUlDulITYc1FWoFGdrJGntVtOs5yikSMOxJTXw3o4QzASNMuUAtVi14fUoexqTBchg==">
+<input name="csSignature" type="hidden" value="w/sUr7bQKZcaq0UuoeHilw==">
 <fieldset>
 <legend>ETRI SERVICE 바로가기</legend>
 <label class="hidden" for="etri_siteur2">ETRI SERVICE 바로가기</label>
@@ -581,8 +581,8 @@ $(document).ready(function(){
 </input></input></form>
 </li>
 <li>
-<form action="#sitelist3" method="get" name="site_form_list3" onsubmit="go_url('etri_siteur3'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIBqdHFnuFKh1EWDMAgWi1kIm0VS+krOV9HfOkoIIsgkbWw4CmURzjOLZsV6Ih6kHNsiIHdD57weE7ZMrErON59A=="/>
-<input name="csSignature" type="hidden" value="NP+rdaJluiC3qQ/a7YUYng=="/>
+<form action="#sitelist3" method="get" name="site_form_list3" onsubmit="go_url('etri_siteur3'); return false;"><input name="ptSignature" type="hidden" value="/pS05Qqbf8xzJstDqscmdsHb+NmFCZUIlLjFqr+eup1k0sLOi0DmXyaU3+IliGoIZN3bOtTHZyUkMKc9584ixUlDulITYc1FWoFGdrJGntVtOs5yikSMOxJTXw3o4QzASNMuUAtVi14fUoexqTBchg=="/>
+<input name="csSignature" type="hidden" value="w/sUr7bQKZcaq0UuoeHilw=="/>
 <fieldset>
 <legend>ETRI 유관기관 바로가기</legend>
 <label class="hidden" for="etri_siteur3">ETRI 유관기관 바로가기</label>
