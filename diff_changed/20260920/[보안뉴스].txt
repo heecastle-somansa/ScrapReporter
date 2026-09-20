@@ -1,0 +1,2402 @@
+<!DOCTYPE html>
+
+<html class="no-js" data-mobile="false" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="ie=edge" http-equiv="x-ua-compatible"/>
+<meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport"/>
+<meta content="max-image-preview:large" name="robots"/>
+<meta content="#cf000d" name="theme-color"/>
+<!-- 메타태그정보 //-->
+<meta content="사이버보안, AI보안, 영상감시, 출입통제, 융합보안, 산업보안, 사회안전 등 모든 보안분야의 최신 트렌드와 심도있는 정보를 제공" name="description">
+<meta content="보안뉴스" property="og:title">
+<meta content="보안뉴스" property="og:site_name">
+<meta content="https://www.boannews.com/image/logo/snslogotrans_20260424112347.jpg" property="og:image">
+<meta content="https://www.boannews.com" property="og:url">
+<meta content="사이버보안, AI보안, 영상감시, 출입통제, 융합보안, 산업보안, 사회안전 등 모든 보안분야의 최신 트렌드와 심도있는 정보를 제공" property="og:description"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="보안뉴스" name="twitter:title"/>
+<meta content="사이버보안, AI보안, 영상감시, 출입통제, 융합보안, 산업보안, 사회안전 등 모든 보안분야의 최신 트렌드와 심도있는 정보를 제공" name="twitter:description"/>
+<meta content="https://www.boannews.com/image/logo/snslogotrans_20260424112347.jpg" name="twitter:image:src"/>
+<!--// 메타태그정보 -->
+<link href="https://cdn.boannews.com/favicon.ico" rel="shortcut icon"/>
+<title>보안뉴스</title>
+<link href="https://cdn.boannews.com/rss/gn_rss_allArticle.xml" rel="alternate" type="application/rss+xml">
+<link href="https://www.boannews.com" rel="canonical"/>
+<link href="https://cdn.boannews.com/image/logo/snslogo_20260424112347.jpg" rel="apple-touch-icon-precomposed"/>
+<link href="https://cdn.boannews.com/css/common.min.css" rel="stylesheet"/>
+<link href="https://cdn.boannews.com/css/font.style.css" rel="stylesheet"/>
+<link href="https://cdn.boannews.com/css/plugins.min.css" rel="stylesheet"/>
+<link href="https://cdn.boannews.com/css/style.min.css" rel="stylesheet"/>
+<link href="https://cdn.boannews.com/css/design.style.css" rel="stylesheet"/>
+<link href="https://cdn.boannews.com/menuskin/md_01/menubar.css" rel="stylesheet"/>
+<script src="https://cdn.boannews.com/script/jquery.min.js"></script>
+<script src="https://cdn.boannews.com/script/jquery-ui.min.js"></script>
+<script src="https://cdn.boannews.com/script/slick.min.js"></script>
+<script src="https://cdn.boannews.com/script/jquery.rwdImageMaps.min.js"></script>
+<script src="https://cdn.boannews.com/script/what-input.min.js"></script>
+<script src="https://cdn.boannews.com/script/foundation.min.js"></script>
+<script src="https://cdn.boannews.com/menuskin/md_01/menubar.js"></script>
+<script src="https://cdn.boannews.com/script/user.style.js"></script>
+<script src="https://cdn.boannews.com/script/jquery.tabslet.min.js"></script>
+<script src="https://cdn.boannews.com/script/common.js"></script>
+<script src="https://cdn.boannews.com/script/Util.js"></script>
+<script src="https://cdn.boannews.com/script/Bannerpop.js"></script>
+<script src="https://cdn.boannews.com/script/ImageViewer.js"></script>
+<script>
+	// 이미지맵
+	$(document).ready(function(e) {
+		$('img[usemap]').rwdImageMaps();
+		
+		// 기사뷰 이미지관련
+			});
+
+	// domain
+	var SITE_DOMAIN = 'https://www.boannews.com'
+		,CDN_DOMAIN = 'https://cdn.boannews.com'
+		,___currentTime	= 1789947667;
+
+</script>
+<style>
+:root {
+	--nd-primary: #cf000d;
+	--nd-primary-hover: #ba000c;
+	--nd-primary-active: #a6000a;
+	--nd-primary-rgb: 207, 0, 13;
+	--nd-site-width: 1200px;
+    --nd-index-width: 1200px;
+	--nd-writing-content-max-width: 600px;
+	--nd-atl-view-font-size: 1.125rem;
+}
+.width-1200 {width:1200px}
+.max-width-1200 {max-width:1200px}
+@media screen and (max-width: 1320px) {
+	#sticky-header .aht-btn {display:none !important}
+}
+</style>
+<style>/********************************************************* [ 반응형 사이즈 ] - 고객요청으로 반응형 사이즈 디테일하게 설정 * PC : ~ 1200 @media print, screen and (max-width: 75em) {} * PC : ~ 1100 @media print, screen and (max-width: 68.75em) {} * Tablet1 : ~ 960 @media print, screen and (max-width: 60em) {} * Tablet2 : ~ 870 @media print, screen and (max-width: 54.38em) {} * Tablet3 : ~ 768 @media print, screen and (max-width: 48em) {} * Mobile : ~ 700 @media print, screen and (max-width: 43.75em) {} [ root 설정 ] 고객요청으로 대표색상 / 본문색상 / 라인색상을 지정 (design.style.css에 정의) *********************************************************/ :root { --nd-user-header-margin-bottom: 3.125rem; } @media print, screen and (max-width: 43.75em) { /* 700 */ :root { --nd-user-header-margin-bottom: 2.5rem; } } .user-container { --nd-user-container-max-width: auto; } @media print, screen and (max-width: 75em) { /* 1200 */ .index-wrap.mobile { margin-left: 0; margin-right: 0; } } .re__global { --nd-atx-image-border-radius: var(--global-border-radius); --nd-box-margins-border-color: var(--global-title-color); --nd-box-skin-container-gap: 2.5rem; --nd-box-skin-title-font-size: 1.5rem; --nd-box-skin-title-bg: none; --nd-box-skin-icon-content: "\e913"; --nd-box-skin-icon-top: 50%; --nd-box-skin-icon-right: 0; --nd-box-skin-icon-font-size: 1em; --nd-box-skin-icon-line-height: 1; --nd-box-skin-icon-transform: translateY(-50%); --nd-atx-title-color: var(--global-title-color); --nd-atx-subtitle-color: var(--global-title-color); --nd-atx-summary-color: var(--global-summary-color); } .re__global .box-skin > .header a[class*="btm-"]::after { font-family: 'fontello'; } @media print, screen and (max-width: 60em) { .re__global { --nd-box-margins-border-color: var(--global-border-color); } } .re__global .box-skin.idx--box .header { --nd-box-skin-title-margin-bottom: 1.25rem; padding-top: var(--nd-box-skin-title-margin-bottom); border-top: 2px solid var(--global-color); } .re__global .box-skin > .container > .skin-column:first-child { flex: 0 0 auto; width: 620px; } @media print, screen and (max-width: 68.75em) { .re__global .box-skin > .container > .skin-column:first-child { width: 100%; } .re__global .box-skin > .container > .skin-column:not(:first-child) { display: none; } } /* autobox */ .re__global .auto-article .auto-titles { word-break: keep-all; } .re__ly01 { --grid-gutter-x: 1.875rem; --nd-grid-inner-margin: 0 calc(-0.5 * var(--grid-gutter-x)); --nd-grid2-width: calc(570px + var(--grid-gutter-x)); --nd-grid2-padding: 0 calc(0.5 * var(--grid-gutter-x)); --nd-grid1-width: calc((100% - var(--nd-grid2-width)) / 2); --nd-grid1-padding: var(--nd-grid2-padding); --nd-grid3-width: var(--nd-grid1-width); --nd-grid3-padding: var(--nd-grid2-padding); } @media print, screen and (max-width: 68.75em) { /* 1100 */ .re__ly01 { --nd-grid1-width: 40%; --nd-grid2-width: 60%; --nd-grid3-width: 100%; } .re__ly01 .index-item.grid-1 {order: 2;} .re__ly01 .index-item.grid-2 {order: 1;} .re__ly01 .index-item.grid-3 {order: 3;} } @media print, screen and (max-width: 60em) { /* 960 */ .re__ly01 .index-grid .index-item.grid-3 {display: none;} } @media print, screen and (max-width: 43.75em) { /* 700 */ .re__ly01 { --nd-grid-inner-margin: 0; --nd-grid1-width: 100%; --nd-grid1-padding: 0; --nd-grid2-width: var(--nd-grid1-width); --nd-grid2-padding: var(--nd-grid1-padding); } .re__ly01 .index-grid { flex-direction: column; } .re__ly01 .index-grid .index-item.grid-1 {order: 2;} .re__ly01 .index-grid .index-item.grid-2 {order: 1;} } .re__ly02 { --grid-gutter-x: 1.25rem; --nd-grid-inner-margin: 0 calc(-0.5 * var(--grid-gutter-x)); --nd-grid1-width: 25%; --nd-grid1-padding: 0 calc(0.5 * var(--grid-gutter-x)); --nd-grid2-width: var(--nd-grid1-width); --nd-grid2-padding: var(--nd-grid1-padding); --nd-grid3-width: var(--nd-grid1-width); --nd-grid3-padding: var(--nd-grid1-padding); --nd-grid4-width: var(--nd-grid1-width); --nd-grid4-padding: var(--nd-grid1-padding); } .re__ly02 .banner_box img { border-radius: var(--global-border-radius); } @media print, screen and (max-width: 75em) { /* 1200 */ .re__ly02 .index-width { overflow-x: auto; } .re__ly02 .index-grid { width: max-content; } } .re__ly03 { --grid-gutter-x: 1.875rem; --nd-grid-inner-margin: 0 calc(-0.5 * var(--grid-gutter-x)); --nd-grid2-width: calc(468px + var(--grid-gutter-x)); --nd-grid2-padding: 0 calc(0.5 * var(--grid-gutter-x)); --nd-grid1-width: calc(100% - var(--nd-grid2-width)); --nd-grid1-padding: var(--nd-grid2-padding); } @media print, screen and (max-width: 68.75em) { .re__ly03 { --nd-grid1-width: 100%; --nd-grid2-width: var(--nd-grid1-width); } .re__ly03 .index-grid { flex-direction: column; } } .re__ly04 { --grid-gutter-x: 1.25rem; --nd-grid-inner-margin: 0 calc(-0.5 * var(--grid-gutter-x)); --nd-grid1-width: 20%; --nd-grid1-padding: 0 calc(0.5 * var(--grid-gutter-x)); --nd-grid2-width: var(--nd-grid1-width); --nd-grid2-padding: var(--nd-grid1-padding); --nd-grid3-width: var(--nd-grid1-width); --nd-grid3-padding: var(--nd-grid1-padding); --nd-grid4-width: var(--nd-grid1-width); --nd-grid4-padding: var(--nd-grid1-padding); --nd-grid5-width: var(--nd-grid1-width); --nd-grid5-padding: var(--nd-grid1-padding); } @media print, screen and (max-width: 75em) { .re__ly04 { --nd-grid-inner-width: max-content; } .re__ly04 > .index-width { overflow-x: auto; } } @media print, screen and (max-width: 43.75em) { .re__ly04 { --nd-grid1-width: 240px; --nd-grid-inner-width: 100%; } } @media print, screen and (max-width: 39.9988em) { .index-wrap.mobile .re__ly04 .index-grid { flex-direction: row; } } .re__ly06 { --grid-gutter-x: 1.875rem; --nd-grid-inner-margin: 0 calc(-0.5 * var(--grid-gutter-x)); --nd-grid2-width: calc(360px + var(--grid-gutter-x)); --nd-grid2-padding: 0 calc(0.5 * var(--grid-gutter-x)); --nd-grid1-width: calc(100% - var(--nd-grid2-width)); --nd-grid1-padding: var(--nd-grid2-padding); } @media print, screen and (max-width: 68.75em) { .re__ly06 { --nd-grid1-width: 100%; --nd-grid2-width: var(--nd-grid1-width); } .re__ly06 .index-grid { flex-direction: column; } } .re__ly05 { --nd-grid-margin: 3.125rem 0 0; --nd-grid-padding: 1.875rem 0 0; border-top: 1px solid var(--global-border-color); } @media print, screen and (max-width: 75em) { /* 1200 */ .re__ly05 { --nd-grid-margin: 3.125rem calc(-1 * var(--nd-user-padding-x)) 0; --nd-grid-padding: 1.875rem var(--nd-user-padding-x) 0; } }</style>
+<script>
+// 구글 로그분석 Start
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-9071708-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// 구글 로그분석 end
+</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-THLS4STN28"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-THLS4STN28');
+</script>
+<script>var bannerpop = new Bannerpop();</script>
+</link></meta></meta></meta></meta></meta></head>
+<body class="">
+<!-- wrap //-->
+<div class="off-canvas-content" data-off-canvas-content="">
+<!-- user wrap //-->
+<div class="user-wrap mobile" id="user-wrap">
+<!-- user wrapper //-->
+<div id="user-wrapper">
+<header class="user-header for-main" id="user-header">
+<div class="side-top-banner clearfix text-center" style="display:block;">
+</div>
+<!-- 최상단영역 //-->
+<article class="gl-gnb" id="user-gnb">
+<div class="index-width">
+<!-- 최신뉴스(자동박스) //-->
+<div class="gl-autobox">
+<style>#skin-1 { --gutter-x: 1.25rem; --nd-atx-title-font-size: 1rem; --nd-atx-title-font-weight: 400; --nd-atx-title-color: var(--global-title-color, #202026); --nd-atx-title-line-height: 24px; display: flex; flex-direction: row; align-items: center; gap: var(--gutter-x); } #skin-1::after { content: normal; } #skin-1 .auto-article-title { flex: 0 0 auto; width: auto; max-width: 100%; font-size: 1rem; font-weight: 700; line-height: var(--nd-body-line-height, 1.5); } #skin-1 .auto-wrapper { flex: 1 1 0; min-width: 0; max-width: 100%; }</style><div class="auto-article" id="skin-1">
+<div class="auto-article-title">최신뉴스 <i class="icon-angle-right"></i></div>
+<div class="auto-wrapper" id="roll-1"><div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145963" target="_top"><h2 class="auto-titles line-x1 onload">“연체자도 피싱·스팸 차단”... 과기부-통신3사, 추석맞아 사이버 민생범죄 예방</h2></a>
+</div>
+<div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145962" target="_top"><h2 class="auto-titles line-x1 onload">남성 패션 플랫폼 ‘룩핀’, 개인정보 유출 공지...이메일·비밀번호 해시 등</h2></a>
+</div>
+<div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145961" target="_top"><h2 class="auto-titles line-x1 onload">KISA, 인터넷 주소 자원 관리 실태 점검 통과... 라우팅 보안 시험장 개방</h2></a>
+</div>
+<div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145960" target="_top"><h2 class="auto-titles line-x1 onload">“로그 들여다보는 시대는 갔다”... 국제 사이버 훈련에서 맹활약한 자율형 AI</h2></a>
+</div>
+<div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145950" target="_top"><h2 class="auto-titles line-x1 onload">“국가 R&amp;D 과제에 AI 쓰려면 투명하고 안전하게”... 정부, 국가연구개발 AI 연구윤리 가이드</h2></a>
+</div>
+<div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145955" target="_top"><h2 class="auto-titles line-x1 onload">성현시스템 ‘AF2100’, SBS ‘재벌X형사2’서 지문·BLE 출입통제 기술 선봬</h2></a>
+</div>
+<div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145954" target="_top"><h2 class="auto-titles line-x1 onload">티피링크, IFA 2026서 Wi-Fi 8·스마트홈 기술 인정받아 3개 제품 혁신상</h2></a>
+</div>
+<div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145959" target="_top"><h2 class="auto-titles line-x1 onload">제미나이도 보안테스트 중 외부기관 해킹</h2></a>
+</div>
+<div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145958" target="_top"><h2 class="auto-titles line-x1 onload">“앤트로픽 클로드로 오픈AI 해킹 성공”... 포상금 900만원</h2></a>
+</div>
+<div class="slick-slide">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145957" target="_top"><h2 class="auto-titles line-x1 onload">“AI 허위보고서로 미-중 전쟁날뻔”... 미군, 중국선박 나포하려다 직전 중단</h2></a>
+</div>
+</div>
+</div><script>
+$(function() {
+	const SKIN_1 = $('#skin-1');
+    const ROLL_1 = $('#roll-1').slick({
+		vertical: true,
+        slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false, // 화살표표시
+		dots: false,
+		autoplay: true, // 자동전환
+		autoplaySpeed: 3000, // 자동전환속도
+		speed: 600, // 넘기는 속도
+		draggable: false, // 제스처(모바일용)
+	});
+
+	SKIN_1.on("click", ".auto-btn", function(e) {
+		const _this = $(e.currentTarget);
+		if(_this.hasClass("auto-btn-prev")) {
+			ROLL_1.slick("slickPrev");
+		} else {
+			ROLL_1.slick("slickNext");
+		}
+	});
+});
+</script>
+</div>
+<!--// 최신뉴스(자동박스) -->
+<!-- 최종편집 //-->
+<div class="gl-updated ms-auto">Updated. 2026-09-20 18:16 (일) </div>
+<!--// 최종편집 -->
+<!-- 로그인 //-->
+<ul class="gl-account" id="userLogin">
+<li class="gl-account-item"><a class="gl-account-link" href="https://www.boannews.com/member/index.html" target="_top">회원가입</a></li>
+<li class="gl-account-item login"><a class="gl-account-link" href="https://www.boannews.com/member/login.html" target="_top">로그인</a></li>
+</ul>
+<!--// 로그인 -->
+</div>
+</article>
+<!--// 최상단영역 -->
+<!-- 로고영역 //-->
+<article class="gl-header" id="nav-header">
+<div class="gl-logo-container">
+<div class="gl-banner">
+<!--보안뉴스 프리미엄 리포트--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/35.js?1788339182"></script><!--//보안뉴스 프리미엄 리포트--> </div>
+<h1 class="gl-logo">
+<a href="https://www.boannews.com" target="_top"><img alt="보안뉴스" height="100" loading="lazy" src="https://cdn.boannews.com/image/logo/toplogo_20260424112347.png" width="333"/></a> </h1>
+<div class="gl-banner">
+<!--보안뉴스 구독--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/36.js?1787561577"></script><!--//보안뉴스 구독--> </div>
+<!-- for : 모바일, 리스트, 뷰, 스크롤 //-->
+<div class="hstack menu-btn-wrap">
+<!-- 로그인 //-->
+<article class="dropdown">
+<button aria-label="account button" class="gl-menu-obj" data-toggle="account-dropdown" type="button">
+<i class="icon-user-o"></i>
+</button>
+<div class="dropdown-pane" data-alignment="center" data-close-on-click="true" data-dropdown="" id="account-dropdown">
+<ul class="gl-account">
+<li class="gl-account-item"><a class="gl-account-link" href="https://www.boannews.com/member/login.html" target="_top">로그인</a></li>
+<li class="gl-account-item"><a class="gl-account-link" href="https://www.boannews.com/member/index.html" target="_top">회원가입</a></li>
+</ul>
+</div>
+</article>
+<!--// 로그인 -->
+<!-- 검색 //-->
+<button aria-label="기사검색" class="gl-search-action gl-menu-obj" type="button">
+<i class="icon-search-thin"></i>
+</button>
+<!--// 검색 -->
+<!-- 전체 -->
+<button aria-label="전체메뉴" class="gl-menu-btn gl-menu-obj all-section" data-toggle="offCanvas" type="button">
+<i class="icon-bars"></i>
+</button>
+</div>
+<!--// for : 모바일, 리스트, 뷰, 스크롤 -->
+</div>
+</article>
+<!--// 로고영역 -->
+<!-- 메뉴바 //-->
+<nav class="gl-nav" id="user-nav">
+<div class="index-width">
+<!-- 섹션 //-->
+<ul class="gl-menu" data-main-code="/index.html" data-menu-direction="vertical" data-menu-effect="false" data-menu-holder="false" data-menu-index="false" data-menu-over="true" data-menu-position="center" data-menu-speed="300" data-multi-code="" data-serial-code="/index.html" data-sub-code="/index.html" id="user-menu">
+<li class="gl-menu-item" data-menu-code="sm">
+<a class="gl-menu-link" href="https://www.boannews.com/news/articleList.html?view_type=sm" target="_top">전체기사</a>
+</li>
+<li class="gl-menu-item" data-menu-code="S1N2">
+<a class="gl-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N2&amp;view_type=sm" target="_top">사건·사고</a>
+</li>
+<li class="gl-menu-item" data-menu-code="S1N3">
+<a class="gl-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N3&amp;view_type=sm" target="_top">공공·정책</a>
+</li>
+<li class="gl-menu-item" data-menu-code="S1N4">
+<a class="gl-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N4&amp;view_type=sm" target="_top">비즈니스</a>
+</li>
+<li class="gl-menu-item" data-menu-code="S1N6">
+<a class="gl-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N6&amp;view_type=sm" target="_top">IT·과학</a>
+</li>
+<li class="gl-menu-item" data-menu-code="">
+<a class="gl-menu-link" href="https://www.boannews.com/index2.html?editcode=MOBILE_17" target="_top">물리보안</a>
+</li>
+<li class="gl-menu-item" data-menu-code="S1N7">
+<a class="gl-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N7&amp;view_type=sm" target="_top">오피니언</a>
+</li>
+<!--
+			<li class="gl-menu-item" data-menu-code="MOBILE_17">
+				<a href="https://www.boannews.com/index2.html?editcode=MOBILE_17" target="_top" class="gl-menu-link link-security"><img src="https://cdn.boannews.com/image/logo/logo_security.png" alt="시큐리티월드"></a>
+			</li>
+			-->
+</ul>
+<!--// 섹션 -->
+<div class="hstack menu-btn-wrap">
+<!-- 로그인 //-->
+<article class="dropdown">
+<button aria-label="account button" class="gl-menu-obj" data-toggle="account-dropdown" type="button">
+<i class="icon-user-o"></i>
+</button>
+<div class="dropdown-pane" data-alignment="center" data-close-on-click="true" data-dropdown="" id="account-dropdown">
+<ul class="gl-account">
+<li class="gl-account-item"><a class="gl-account-link" href="https://www.boannews.com/member/login.html" target="_top">로그인</a></li>
+<li class="gl-account-item"><a class="gl-account-link" href="https://www.boannews.com/member/index.html" target="_top">회원가입</a></li>
+</ul>
+</div>
+</article>
+<!--// 로그인 -->
+<!-- 검색 //-->
+<button aria-label="기사검색" class="gl-search-action gl-menu-obj" type="button">
+<i class="icon-search-thin"></i>
+</button>
+<!--// 검색 -->
+<!-- 전체 -->
+<button aria-label="전체메뉴" class="gl-menu-btn gl-menu-obj all-section" data-toggle="offCanvas" type="button">
+<i class="icon-bars"></i>
+</button>
+</div>
+</div>
+</nav>
+<!--// 메뉴바 -->
+<!-- search absolute //-->
+<div class="gl-search-ab">
+<form action="https://www.boannews.com/news/articleList.html" class="gl-search gl-search-stack float-right" id="userSearch" method="get" name="head-search">
+<input name="sc_area" type="hidden" value="A"/>
+<input name="view_type" type="hidden" value="sm"/>
+<label class="show-for-sr" for="search">기사검색</label>
+<input class="gl-search-input" id="search" name="sc_word" onkeydown="if(event.keyCode==13){if(this.form.sc_word.value != ''){this.form.submit();}else{alert('검색어를 입력해주세요');return false;}}" placeholder="검색어를 입력해주세요" title="기사검색" type="text"/>
+<button aria-label="기사검색" class="gl-search-btn" onclick="if(this.form.sc_word.value != ''){this.form.submit();}else{alert('검색어를 입력해주세요');this.form.sc_word.focus();return false;}" type="button"><i class="icon-search-thin"></i></button>
+</form>
+</div>
+<!--// search absolute -->
+<!-- 전체메뉴(side nav) //-->
+<nav class="gl-sidenav" id="user-sidenav">
+<div class="gl-sidenav-header">
+<div class="gl-sidenav-ci">
+<a href="https://www.boannews.com" target="_top">
+<img alt="보안뉴스" height="39" loading="lazy" src="https://cdn.boannews.com/image/logo/printlogo_20260424112347.png" width="130"/> </a>
+</div>
+<button aria-label="close" class="gl-sidenav-close gl-overlap-exit" id="all-section-close" type="button">
+<i class="icon-close"></i>
+</button>
+</div>
+<ul class="gl-sidenav-menu">
+<li class="gl-sidenav-menu-item"><a class="gl-sidenav-menu-link" href="https://www.boannews.com/news/articleList.html?view_type=sm">전체기사</a></li>
+<li class="gl-sidenav-menu-item">
+<a class="gl-sidenav-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N2&amp;view_type=sm" target="_top">사건·사고</a>
+</li>
+<li class="gl-sidenav-menu-item">
+<a class="gl-sidenav-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N3&amp;view_type=sm" target="_top">공공·정책</a>
+</li>
+<li class="gl-sidenav-menu-item">
+<a class="gl-sidenav-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N4&amp;view_type=sm" target="_top">비즈니스</a>
+</li>
+<li class="gl-sidenav-menu-item">
+<a class="gl-sidenav-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N6&amp;view_type=sm" target="_top">IT·과학</a>
+</li>
+<li class="gl-sidenav-menu-item">
+<a class="gl-sidenav-menu-link" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N7&amp;view_type=sm" target="_top">오피니언</a>
+</li>
+<li class="gl-sidenav-menu-item">
+<a class="gl-sidenav-menu-link" href="https://www.boannews.com/index2.html?editcode=MOBILE_17" target="_top">물리보안</a>
+</li>
+</ul>
+<!-- 전체연재 //-->
+<ul class="gl-sidenav-serial-menu">
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN1" target="_top">인터뷰</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN2" target="_top">긴급경보</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN3" target="_top">보안 리포트</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN4" target="_top">신제품 정보</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN5" target="_top">라이프</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN6" target="_top">영상뉴스</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN7" target="_top">국제</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN8" target="_top">JOB</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN9" target="_top">카드뉴스</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN10" target="_top">인사·부고</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN11" target="_top">보도자료</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN12" target="_top">Case Study</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN13" target="_top">인사이트</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN14" target="_top">생활 속 보안</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN15" target="_top">전시·콘퍼런스</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN16" target="_top">반론·정정</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN17" target="_top">물리보안</a>
+</li>
+<li class="gl-sidenav-serial-menu-item">
+<a class="gl-sidenav-serial-menu-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN18" target="_top">TOP 100</a>
+</li> </ul>
+<!--// 전체연재 -->
+<!-- SNS //-->
+<div class="gl-sns-container">
+<a class="gl-sns naver" data-tooltip="" href="https://newsstand.naver.com/952" rel="noopener noreferrer" target="_blank" title="네이버 뉴스스탠드"><i class="icon"></i></a>
+<a class="gl-sns daum" data-tooltip="" href="https://v.daum.net/channel/552815/" rel="noopener noreferrer" target="_blank" title="다음"><i class="icon"></i></a>
+<a class="gl-sns facebook" data-tooltip="" href="https://www.facebook.com/boannews" rel="noopener noreferrer" target="_blank" title="페이스북"><i class="icon"></i></a>
+<a class="gl-sns youtube" data-tooltip="" href="https://www.youtube.com/channel/UCCSHdGfRK0iPIAhwhLK8zfA" rel="noopener noreferrer" target="_blank" title="유튜브"><i class="icon"></i></a>
+<a class="gl-sns newsletter" data-tooltip="" href="https://www.boannews.com/com/letter.html" rel="noopener noreferrer" target="_blank" title="뉴스레터 신청"><i class="icon"></i></a>
+<!--<a href="" target="_blank" class="gl-sns sw" rel="noopener noreferrer"><i class="icon"></i></a>-->
+</div>
+<!--// SNS -->
+</nav>
+<!--// 전체메뉴(side nav) -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+	const USER_HEADER = document.getElementById('user-header');
+	const USER_HEADER_HEIGHT = USER_HEADER.offsetHeight;
+	const USER_HEADER_MARGIN = parseFloat(getComputedStyle(USER_HEADER).marginBottom);
+	const TOTAL_HEIGHT = USER_HEADER_HEIGHT + USER_HEADER_MARGIN;
+	const USER_CONTAINER = document.getElementById('user-container');
+	
+	let lastScroll = 0;	
+	
+	window.addEventListener('scroll', function() {
+		const scrollTop = Math.round(document.documentElement.scrollTop || window.scrollY);
+		const isTop = document.documentElement.getBoundingClientRect().top === 0;
+		
+		// scroll class
+		if (scrollTop > TOTAL_HEIGHT) {
+			USER_HEADER.classList.add("is-scroll");
+			USER_CONTAINER.style.paddingTop = TOTAL_HEIGHT+'px';
+		} else {
+			USER_HEADER.classList.remove("is-scroll");
+			USER_CONTAINER.style.paddingTop = 0;
+		}
+		
+		// scroll up & down class
+		if(scrollTop <= TOTAL_HEIGHT) {
+			USER_HEADER.classList.remove("scroll-up", "scroll-down");
+			lastScroll = 0;
+			return;
+		}
+		if(scrollTop > lastScroll) {
+			// 아래로 스크롤
+			USER_HEADER.classList.add("scroll-down");
+			USER_HEADER.classList.remove("scroll-up");
+		} else {
+			// 위로 스크롤
+			USER_HEADER.classList.add("scroll-up");
+			USER_HEADER.classList.remove("scroll-down");
+		}
+		lastScroll = scrollTop;
+	});
+	
+});
+</script>
+</header>
+<!-- container //-->
+<section class="user-container" id="user-container">
+<!-- layer popup position  -->
+<div id="layer-popups"></div>
+<div class="position-relative"><div class="view-aside left-wing" data-down-margin="0" data-duration="300" data-scroll="y" data-top-margin="100" id="floating_banner_left">
+<div class="side-sns-fixed">
+<!--------------------------------------------
+(고객요청 - 반응형)
+1500px 이상 사이즈에서는 좌측 날개배너 영역에서 fixed로,
+1500px 이하 사이즈에서는 메인에 배치되도록 요청.
+
+사이드판 좌측 날개 배너 영역과 메인, 시큐리티월드 섹션판 중앙에 각각 배치 후 class를 다르게 줌.
+- 좌측 날개 배너 :	.side-sns-fixed
+- 메인 및 섹션판 :	.side-sns-relative
+-------------------------------------------->
+<style type="text/css">
+.view-aside.left-wing {
+	--nd-view-aside-offset-left: calc(2.5rem - var(--nd-user-padding-x));
+	--nd-view-aside-offset-right: initial;
+}
+
+/* 
+1500px 이상 사이즈에서는 좌측 날개배너에 노출
+1500px 이하 사이즈에서는 메인에 노출
+*/
+.side-sns-fixed {display:block}
+.user-wrap .side-sns-relative {display:none}
+.user-wrap .side-sns-fixed .for-others {display:none}
+@media print, screen and (max-width: 93.75em) {
+	.side-sns-fixed {display:none}
+	.user-wrap .side-sns-relative {display:block}
+}
+
+/* 기본 style */
+.side-sns-wrap {
+	--side-sns-icon-width: 1.875rem;
+	--side-sns-icon-height: var(--side-sns-icon-width);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all .3s ease-in-out;
+}
+.side-sns-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.25rem;
+	padding: 1.875rem;
+	background-color: var(--nd-white, #fff);
+	border: 1px solid var(--global-border-color);
+	border-radius: 50em;
+}
+.side-sns-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: .5rem;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1;
+	background-color: var(--nd-white, #fff);
+	border-radius: 50em;
+}
+.side-sns-title > i.ndcon-check-circled-outline {
+	font-size: 1.875rem;
+}
+.side-sns-title > i.ndcon-check-circled-outline::before {
+	content: '';
+	display: block;
+	width: 1em;
+	height: 1em;
+	background: currentColor;
+	mask-image: url(/icon/ndcon/check-circled-outline.svg);
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+.side-sns-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+.side-sns {
+	width: var(--side-sns-icon-width);
+	height: var(--side-sns-icon-height);
+}
+.side-sns > .icon {
+	flex: 0 0 auto;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url('https://cdn.boannews.com/image/root-icon.png') no-repeat;
+}
+.side-sns.naver .icon {background-position: 0 -50px;}
+.side-sns.daum .icon {background-position: -50px -50px;}
+.side-sns.facebook .icon {background-position: -100px -50px;}
+.side-sns.youtube .icon {background-position: -150px -50px;}
+.side-sns.newsletter .icon {background-position: -300px -50px;}
+.side-sns.sw .icon {background-position: -250px -50px;}
+
+
+/*****************
+[ 섹션판 ]
+* 메뉴바에 하단 여백이 없기 때문에 상단 여백 추가
+*****************/
+.user-wrap .side-sns-wrap.for-section {
+	padding: 3.125rem 0 0 0;
+}
+
+
+/*****************
+[ 기사 리스트 ]
+* 메뉴바에 하단 여백이 없기 때문에 상단 여백 추가
+*****************/
+.user-wrap .side-sns-wrap.for-list {
+	padding: 3.125rem 0 0 var(--nd-user-padding-x, 1.25rem);
+}
+
+/*****************
+[ 관리자 ]
+* 편집화면에서는 1500px 이하 사이즈의 디자인으로 보여야 함.
+*****************/
+.dspan-editmain .edit-contents > :not(.side-sns-fixed) .side-sns-wrap {
+	flex-direction: row;
+	width: auto;
+}
+.dspan-editmain .edit-contents > :not(.side-sns-fixed) .side-sns-inner {
+	flex-direction: row;
+	width: auto;
+	padding: 1.25rem 1.875rem;
+}
+.dspan-editmain .edit-contents > :not(.side-sns-fixed) .side-sns-container {
+	flex-direction: row;
+}
+
+
+/*****************
+[ 모바일 ]
+*****************/
+@media print, screen and (max-width: 93.75em) {	/* 1500 (사이트 넓이 + sns 넓이 + 여백) */
+	.user-wrap .side-sns-relative .side-sns-wrap {
+		position: relative;
+		margin-bottom: 3.125rem;
+	}
+	.user-wrap .side-sns-relative .side-sns-inner {
+		flex-direction: row;
+		width: auto;
+		padding: 1.25rem 1.875rem;
+	}
+	.user-wrap .side-sns-relative .side-sns-title,
+	.user-wrap .side-sns-relative .side-sns-container {
+		flex-direction: row;
+	}
+}
+@media print, screen and (max-width: 60em) {	/* 960 */
+	.user-wrap .side-sns-container {
+		justify-content: center;
+	}
+}
+@media print, screen and (max-width: 40em) {	/* 640 */
+	.user-wrap .side-sns-inner {
+		justify-content: center;
+		width: 100%;
+		padding: 1.25rem 0;
+	}
+	.user-wrap .side-sns-title {
+		display: none;
+	}
+}
+@media print, screen and (max-width: 25em) {	/* 400 */
+	.user-wrap .side-sns-container {
+		gap: .9375rem;
+	}
+}
+</style>
+<div class="side-sns-wrap for-main" id="side-sns-wrap">
+<div class="side-sns-inner">
+<div class="side-sns-title">
+<i class="ndcon-check-circled-outline"></i>
+			구독
+		</div>
+<div class="side-sns-container">
+<a class="side-sns naver" href="https://newsstand.naver.com/952" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+<a class="side-sns daum" href="https://v.daum.net/channel/552815/" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+<a class="side-sns facebook" href="https://www.facebook.com/boannews" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+<a class="side-sns youtube" href="https://www.youtube.com/channel/UCCSHdGfRK0iPIAhwhLK8zfA" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+<a class="side-sns newsletter" href="https://www.boannews.com/com/letter.html" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+</div>
+</div>
+</div>
+<script>
+/*
+document.addEventListener('DOMContentLoaded', function () {
+	const USER_WRAP = document.querySelector('user-header');
+	const USER_HEADER = document.querySelector('user-header');
+	const USER_HEADER_HEIGHT = USER_HEADER.offsetHeight;
+	const USER_HEADER_MARGIN_BOTTOM = parseFloat(getComputedStyle(USER_HEADER).margin-bottom);
+	const SIDE_SNS = USER_WRAP.querySelector('side-sns-wrap');
+	
+	SIDE_SNS.style.top = (USER_HEADER_HEIGHT + USER_HEADER_MARGIN_BOTTOM) + 'px';
+	
+	window.addEventListener('scroll', function() {
+		const scrollTop = Math.round(document.documentElement.scrollTop || window.scrollY);
+		
+		// scroll class
+		if (scrollTop > USER_HEADER_HEIGHT) {
+			SIDE_SNS.style.top = '330px';
+		}
+	});
+});
+$(function(){
+	const USER_HEADER = $('.user-header');
+	const USER_HEADER_HEIGHT = USER_HEADER.outerHeight();
+	const USER_HEADER_MARGIN_BOTTOM = parseFloat(USER_HEADER.css('margin-bottom'));
+	let SIDE_SNS_TOP = USER_HEADER_HEIGHT + USER_HEADER_MARGIN_BOTTOM;
+	$('.user-wrap .side-sns-wrap').css('top', SIDE_SNS_TOP + 'px');
+	
+	$(window).on('scroll', function() {
+		const scrollTop = Math.round($(window).scrollTop());
+
+		// scroll class
+		if (scrollTop > USER_HEADER_HEIGHT) {
+			$('.user-wrap .side-sns-wrap').css('top', '330px');
+		} else {
+			$('.user-wrap .side-sns-wrap').css('top', SIDE_SNS_TOP + 'px');
+		}
+	});
+});
+*/
+</script>
+</div></div>
+<div class="view-aside right-wing" data-down-margin="15" data-duration="300" data-scroll="y" data-top-margin="20" id="floating_banner_right">
+</div>
+</div>
+<div class="position-relative index-width" id="wingBanner">
+<div class="wing-banner-left">
+</div>
+<div class="wing-banner-right">
+</div>
+</div><div class="index-wrap mobile">
+<div class="index-grid-container re__global">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item fixed">
+</div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global re__ly01">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item grid-1">
+<article class="box-skin">
+<header class="header"></header>
+<section class="content"><style>#skin-3 { --gutter-x: 1.25rem; --gutter-y: 1.25rem; --frame-width: 100%; --nd-atx-title-margin: 0 0 .9375rem 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; } #skin-3 > .item { display: flex; flex-wrap: wrap; flex-direction: column; align-items: center; gap: var(--gutter-x); } #skin-3 > .item::after { content: normal; } #skin-3 > .item:nth-child(n + 5) { display: none; } #skin-3 > .item + .item { margin-top: var(--gutter-y); padding-top: var(--gutter-y); border-top: 1px solid var(--global-border-color); } #skin-3 .frame { flex: 0 0 auto; width: var(--frame-width); } #skin-3 .auto-content { flex: 1 1 0; max-width: 100%; min-width: 0; } /* small */ #skin-3 > .item.small { --frame-width: 100px; --nd-atx-title-margin: 0; --nd-atx-title-font-size: 1.125rem; --nd-atx-title-line-height: 26px; flex-direction: row; } #skin-3 > .item.small .auto-titles { -webkit-line-clamp: 3; } #skin-3 > .item.small .auto-sums { display: none; } /* mobile */ @media print, screen and (max-width: 60em) { /* 960 */ #skin-3 { --nd-atx-title-margin: 0; } #skin-3 > .item:nth-child(n + 5) { display: flex; } #skin-3 > .item.small { --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; } #skin-3 > .item.small .auto-titles { -webkit-line-clamp: 2; } #skin-3 .frame {display:none} #skin-3 .auto-sums {display:none} } @media print, screen and (max-width: 43.75em) { /* 700 */ #skin-3 { --gutter-x: 1.875rem; --gutter-y: 1.25rem; --frame-width: 130px; --nd-atx-image-ratio: 3 / 2; } #skin-3 > .item { flex-direction: row; } #skin-3 > .item:nth-child(n + 5) { display: none; } #skin-3 > .item + .item { padding-top: 0; border-top: 0; } #skin-3 > .item.large { padding: var(--gutter-y) 0; border-width: 1px 0; border-style: solid; border-color: var(--nd-gray-200); } #skin-3 > .item:not(.large) .auto-titles { -webkit-line-clamp: 1; } #skin-3 .frame {display:block} #skin-3 .auto-sums, #skin-3 > .item.small .frame { display: none; } #skin-3 > .item.small { --nd-atx-title-font-size: 1.25rem; --nd-atx-title-line-height: 28px; } }</style><div class="auto-article" id="skin-3"><div class="item large">
+<a class="frame radius" href="https://www.boannews.com/news/articleView.html?idxno=145960" target="_top"><div class="auto-images thumb"><img alt="“로그 들여다보는 시대는 갔다”... 국제 사이버 훈련에서 맹활약한 자율형 AI" height="338" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145960_127923_4244_1789810965_600.jpg" width="600"/></div></a>
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145960" target="_top"><h2 class="auto-titles line-x2 onload">“로그 들여다보는 시대는 갔다”... 국제 사이버 훈련에서 맹활약한 자율형 AI</h2></a>
+<div class="auto-sums line-x2">“사이버 공격은 날로 지능화되는데, 사람이 일일이 로그를 들여다보며 대응하는 기존 방식은 이미 한계에 이르렀습니다. 이제 방어의 유일한 해법은 인공지능(AI)을 통한 전 과정의 완...</div>
+</div>
+</div>
+<div class="item">
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145959" target="_top"><h2 class="auto-titles line-x2 onload">제미나이도 보안테스트 중 외부기관 해킹</h2></a>
+<div class="auto-sums line-x2">구글의 AI 모델 ‘제미나이’도 보안 테스트 중 외부기관 해킹을 일으킨 것으로 나타났다.18일(현지시간) 월스트리트저널에 따르면, 제미나이는 지난 5월 보안 평가 업체 이레귤러가 ...</div>
+</div>
+</div>
+<div class="item">
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145958" target="_top"><h2 class="auto-titles line-x2 onload">“앤트로픽 클로드로 오픈AI 해킹 성공”... 포상금 900만원</h2></a>
+<div class="auto-sums line-x2">앤트로픽의 AI 모델인 클로드를 활용해 오픈AI 해킹 시도에 성공한 사례가 나왔다. 이를 시도한 연구원들은 오픈AI에 제보해 900만원의 포상금을 받았다.AI 보안 연구업체 해크트...</div>
+</div>
+</div>
+<div class="item small">
+<a class="frame ratio-32 line radius" href="https://www.boannews.com/news/articleView.html?idxno=145957" target="_top"><div class="auto-images thumb"><img alt="“AI 허위보고서로 미-중 전쟁날뻔”... 미군, 중국선박 나포하려다 직전 중단" height="400" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145957_127919_1334_1789784014_600.jpg" width="600"/></div></a>
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145957" target="_top"><h2 class="auto-titles line-x2 onload">“AI 허위보고서로 미-중 전쟁날뻔”... 미군, 중국선박 나포하려다 직전 중단</h2></a>
+<div class="auto-sums line-x2">미군이 AI의 허위 보고서를 근거로 중동 해역에서 중국 선박을 나포하려다 작전 실행 직전 중단하는 아찔한 일이 발생했다.18일(현지시간) CNN의 보도에 따르면, 이란과의 전쟁이 ...</div>
+</div>
+</div>
+<div class="item small">
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145951" target="_top"><h2 class="auto-titles line-x2 onload">[배종찬의 보안 빅데이터] 가족마저 손쉽게 속아 넘어가는 ‘AI 딥페이크’</h2></a>
+<div class="auto-sums line-x2">인공지능(AI) 기술의 급격한 발전은 인간의 삶을 비약적으로 편리하게 만들어주었으나, 동시에 ‘AI 딥페이크’라는 미지의 공포를 우리의 일상 속으로 깊숙이 끌어들였다. AI 딥페이...</div>
+</div>
+</div>
+<div class="item small">
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145953" target="_top"><h2 class="auto-titles line-x2 onload">팔로알토 “미토스 써보니 공포마케팅 아냐... 韓 지체할 시간없어”</h2></a>
+<div class="auto-sums line-x2">“미토스로 취약점 스캐닝을 해봤는데, 공포 마케팅이 아닙니다. 엔지니어 수천명이 1년간 찾은 취약점과 동일한 결과가 몇시간만에 나왔습니다. 국내에서 얼마나 많은 취약점이 나올지 아...</div>
+</div>
+</div>
+<div class="item small">
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145917" target="_top"><h2 class="auto-titles line-x2 onload">[Global Security TOP 100] 박형진 트루엔 이사 “카메라는 시작일 뿐... AI 영상보안 플랫폼으로 승부수”</h2></a>
+<div class="auto-sums line-x2">트루엔이 고성능 온디바이스 AI 카메라에 머물지 않고 AI 통합 영상보안 플랫폼 기업으로 사업 영역을 넓히고 있다. 올해 해외 시장에서 성장 가능성을 확인한 트루엔은 AI 카메라와...</div>
+</div>
+</div>
+<div class="item small">
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145947" target="_top"><h2 class="auto-titles line-x2 onload">유명 수학 학원 ‘생각하는황소’ 해킹... 학부모 피싱 사기 주의해야</h2></a>
+<div class="auto-sums line-x2">유명 수학 학원 사이트 침해 사고로 민감한 학생 관련 정보 유출이 의심되는 가운데, 유출 정보를 악용한 보이스피싱 우려도 커지고 있다. 18일 보안 업계에 따르면 대치동 등에 전국...</div>
+</div>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:30px;"></div> </div>
+<div class="index-item grid-2">
+<article class="box-skin">
+<header class="header"></header>
+<section class="content"><style>#skin-2 { --gutter-y: 3.125rem; --nd-atx-title-margin: 1.25rem 0 0; --nd-atx-title-font-size: 1.875rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 38px; --nd-atx-subtitle-margin: 1.875rem 0 0; --nd-atx-subtitle-font-size: 1.25rem; --nd-atx-subtitle-line-height: 28px; --nd-atx-summary-margin: var(--nd-atx-subtitle-margin); --nd-atx-summary-font-size: var(--nd-atx-subtitle-font-size); --nd-atx-summary-line-height: var(--nd-atx-subtitle-line-height); --nd-atx-relation-gap: .9375rem; --nd-atx-relation-padding-left: .9375rem; --nd-atx-relation-icon-offset-x: 0; --nd-atx-relation-icon-offset-y: 32%; --nd-atx-relation-icon-width: 9px; --nd-atx-relation-icon-height: var(--nd-atx-relation-icon-width); --nd-atx-relation-icon-border-width: 0 0 2px 2px; --nd-atx-relation-icon-border-color: #181819; --nd-atx-relation-color: var(--nd-dark); } #skin-2 > .item + .item { margin-top: var(--gutter-y); } #skin-2 .relation-wrap { margin-top: 1.875rem; } #skin-2 .relation-title { display: inline-block; margin-bottom: 1.25rem; padding: .375rem .9375rem; font-size: 1rem; font-weight: 700; color: var(--nd-white, #fff); line-height: 1; background-color: rgba(var(--user-point-color-rgb, 32,32,38), .7); border-radius: 3px; } #skin-2 .auto-titles { word-break: keep-all; text-align: center; } #skin-2 .height-frame { height: 340px; }</style><div class="auto-article" id="skin-2"><div class="item">
+<a class="frame height-frame radius line" href="https://www.boannews.com/news/articleView.html?idxno=145962" target="_top"><div class="auto-images thumb"><img alt="남성 패션 플랫폼 ‘룩핀’, 개인정보 유출 공지...이메일·비밀번호 해시 등" height="435" loading="lazy" src="https://cdn.boannews.com/news/photo/202609/145962_127927_2115.png" width="748"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145962" target="_top"><h2 class="auto-titles line-x2 onload">남성 패션 플랫폼 ‘룩핀’, 개인정보 유출 공지...이메일·비밀번호 해시 등</h2></a>
+<div class="auto-sums line-x3">남성 패션 플랫폼 ‘룩핀’ 운영사 레벨13에서 이용자들에게 개인정보 유출을 공지했다. 이메일과 비밀번호 해시 등이 유출됐다는 내용이다. 데이터 분석 도구인 ‘메타베이스’의 보안 취약점을 악용한 공격이라는 게 회사 측 분석이다.20일 룩핀이 이용자들에게...</div>
+<div class="relation-wrap">
+<div class="relation-title">관련기사</div>
+<div class="auto-relation-container"><a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145947" target="_top">유명 수학 학원 ‘생각하는황소’ 해킹... 학부모 피싱 사기 주의해야</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145935" target="_top">이토마토, 시스템 외부 침입으로 회원 정보 변조</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145922" target="_top">카카오게임즈, 140명 개인정보 유출... "악용 위험 낮다"</a>
+</div>
+</div>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div><div class="side-sns-relative">
+<!--------------------------------------------
+(고객요청 - 반응형)
+1500px 이상 사이즈에서는 좌측 날개배너 영역에서 fixed로,
+1500px 이하 사이즈에서는 메인에 배치되도록 요청.
+
+사이드판 좌측 날개 배너 영역과 메인, 시큐리티월드 섹션판 중앙에 각각 배치 후 class를 다르게 줌.
+- 좌측 날개 배너 :	.side-sns-fixed
+- 메인 및 섹션판 :	.side-sns-relative
+-------------------------------------------->
+<style type="text/css">
+.view-aside.left-wing {
+	--nd-view-aside-offset-left: calc(2.5rem - var(--nd-user-padding-x));
+	--nd-view-aside-offset-right: initial;
+}
+
+/* 
+1500px 이상 사이즈에서는 좌측 날개배너에 노출
+1500px 이하 사이즈에서는 메인에 노출
+*/
+.side-sns-fixed {display:block}
+.user-wrap .side-sns-relative {display:none}
+.user-wrap .side-sns-fixed .for-others {display:none}
+@media print, screen and (max-width: 93.75em) {
+	.side-sns-fixed {display:none}
+	.user-wrap .side-sns-relative {display:block}
+}
+
+/* 기본 style */
+.side-sns-wrap {
+	--side-sns-icon-width: 1.875rem;
+	--side-sns-icon-height: var(--side-sns-icon-width);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all .3s ease-in-out;
+}
+.side-sns-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.25rem;
+	padding: 1.875rem;
+	background-color: var(--nd-white, #fff);
+	border: 1px solid var(--global-border-color);
+	border-radius: 50em;
+}
+.side-sns-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: .5rem;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1;
+	background-color: var(--nd-white, #fff);
+	border-radius: 50em;
+}
+.side-sns-title > i.ndcon-check-circled-outline {
+	font-size: 1.875rem;
+}
+.side-sns-title > i.ndcon-check-circled-outline::before {
+	content: '';
+	display: block;
+	width: 1em;
+	height: 1em;
+	background: currentColor;
+	mask-image: url(/icon/ndcon/check-circled-outline.svg);
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+.side-sns-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+.side-sns {
+	width: var(--side-sns-icon-width);
+	height: var(--side-sns-icon-height);
+}
+.side-sns > .icon {
+	flex: 0 0 auto;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url('https://cdn.boannews.com/image/root-icon.png') no-repeat;
+}
+.side-sns.naver .icon {background-position: 0 -50px;}
+.side-sns.daum .icon {background-position: -50px -50px;}
+.side-sns.facebook .icon {background-position: -100px -50px;}
+.side-sns.youtube .icon {background-position: -150px -50px;}
+.side-sns.newsletter .icon {background-position: -300px -50px;}
+.side-sns.sw .icon {background-position: -250px -50px;}
+
+
+/*****************
+[ 섹션판 ]
+* 메뉴바에 하단 여백이 없기 때문에 상단 여백 추가
+*****************/
+.user-wrap .side-sns-wrap.for-section {
+	padding: 3.125rem 0 0 0;
+}
+
+
+/*****************
+[ 기사 리스트 ]
+* 메뉴바에 하단 여백이 없기 때문에 상단 여백 추가
+*****************/
+.user-wrap .side-sns-wrap.for-list {
+	padding: 3.125rem 0 0 var(--nd-user-padding-x, 1.25rem);
+}
+
+/*****************
+[ 관리자 ]
+* 편집화면에서는 1500px 이하 사이즈의 디자인으로 보여야 함.
+*****************/
+.dspan-editmain .edit-contents > :not(.side-sns-fixed) .side-sns-wrap {
+	flex-direction: row;
+	width: auto;
+}
+.dspan-editmain .edit-contents > :not(.side-sns-fixed) .side-sns-inner {
+	flex-direction: row;
+	width: auto;
+	padding: 1.25rem 1.875rem;
+}
+.dspan-editmain .edit-contents > :not(.side-sns-fixed) .side-sns-container {
+	flex-direction: row;
+}
+
+
+/*****************
+[ 모바일 ]
+*****************/
+@media print, screen and (max-width: 93.75em) {	/* 1500 (사이트 넓이 + sns 넓이 + 여백) */
+	.user-wrap .side-sns-relative .side-sns-wrap {
+		position: relative;
+		margin-bottom: 3.125rem;
+	}
+	.user-wrap .side-sns-relative .side-sns-inner {
+		flex-direction: row;
+		width: auto;
+		padding: 1.25rem 1.875rem;
+	}
+	.user-wrap .side-sns-relative .side-sns-title,
+	.user-wrap .side-sns-relative .side-sns-container {
+		flex-direction: row;
+	}
+}
+@media print, screen and (max-width: 60em) {	/* 960 */
+	.user-wrap .side-sns-container {
+		justify-content: center;
+	}
+}
+@media print, screen and (max-width: 40em) {	/* 640 */
+	.user-wrap .side-sns-inner {
+		justify-content: center;
+		width: 100%;
+		padding: 1.25rem 0;
+	}
+	.user-wrap .side-sns-title {
+		display: none;
+	}
+}
+@media print, screen and (max-width: 25em) {	/* 400 */
+	.user-wrap .side-sns-container {
+		gap: .9375rem;
+	}
+}
+</style>
+<div class="side-sns-wrap for-main" id="side-sns-wrap">
+<div class="side-sns-inner">
+<div class="side-sns-title">
+<i class="ndcon-check-circled-outline"></i>
+			구독
+		</div>
+<div class="side-sns-container">
+<a class="side-sns naver" href="https://newsstand.naver.com/952" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+<a class="side-sns daum" href="https://v.daum.net/channel/552815/" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+<a class="side-sns facebook" href="https://www.facebook.com/boannews" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+<a class="side-sns youtube" href="https://www.youtube.com/channel/UCCSHdGfRK0iPIAhwhLK8zfA" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+<a class="side-sns newsletter" href="https://www.boannews.com/com/letter.html" rel="noopener noreferrer" target="_blank"><i class="icon"></i></a>
+</div>
+</div>
+</div>
+<script>
+/*
+document.addEventListener('DOMContentLoaded', function () {
+	const USER_WRAP = document.querySelector('user-header');
+	const USER_HEADER = document.querySelector('user-header');
+	const USER_HEADER_HEIGHT = USER_HEADER.offsetHeight;
+	const USER_HEADER_MARGIN_BOTTOM = parseFloat(getComputedStyle(USER_HEADER).margin-bottom);
+	const SIDE_SNS = USER_WRAP.querySelector('side-sns-wrap');
+	
+	SIDE_SNS.style.top = (USER_HEADER_HEIGHT + USER_HEADER_MARGIN_BOTTOM) + 'px';
+	
+	window.addEventListener('scroll', function() {
+		const scrollTop = Math.round(document.documentElement.scrollTop || window.scrollY);
+		
+		// scroll class
+		if (scrollTop > USER_HEADER_HEIGHT) {
+			SIDE_SNS.style.top = '330px';
+		}
+	});
+});
+$(function(){
+	const USER_HEADER = $('.user-header');
+	const USER_HEADER_HEIGHT = USER_HEADER.outerHeight();
+	const USER_HEADER_MARGIN_BOTTOM = parseFloat(USER_HEADER.css('margin-bottom'));
+	let SIDE_SNS_TOP = USER_HEADER_HEIGHT + USER_HEADER_MARGIN_BOTTOM;
+	$('.user-wrap .side-sns-wrap').css('top', SIDE_SNS_TOP + 'px');
+	
+	$(window).on('scroll', function() {
+		const scrollTop = Math.round($(window).scrollTop());
+
+		// scroll class
+		if (scrollTop > USER_HEADER_HEIGHT) {
+			$('.user-wrap .side-sns-wrap').css('top', '330px');
+		} else {
+			$('.user-wrap .side-sns-wrap').css('top', SIDE_SNS_TOP + 'px');
+		}
+	});
+});
+*/
+</script>
+</div> </div>
+<div class="index-item grid-3">
+<article class="box-skin">
+<header class="header"></header>
+<section class="content"><style>#skin-4 { --gutter-x: 1.25rem; --gutter-y: 1.25rem; --frame-width: 100%; --nd-atx-title-margin: 0 0 .9375rem 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; } #skin-4 > .item { display: flex; flex-wrap: wrap; flex-direction: column; align-items: center; gap: var(--gutter-x); } #skin-4 > .item::after { content: normal; } #skin-4 > .item + .item { margin-top: var(--gutter-y); padding-top: var(--gutter-y); border-top: 1px solid var(--global-border-color); } #skin-4 .frame { flex: 0 0 auto; width: var(--frame-width); } #skin-4 .item:not(.large):not(.small) .frame { display: none; } #skin-4 .auto-content { flex: 1 1 0; max-width: 100%; min-width: 0; } /* small */ #skin-4 > .item.small { --frame-width: 100px; --nd-atx-title-margin: 0; --nd-atx-title-font-size: 1.125rem; --nd-atx-title-line-height: 26px; flex-direction: row; } #skin-4 > .item.small .auto-titles { -webkit-line-clamp: 3; } #skin-4 > .item.small .auto-sums { display: none; } /* mobile */ @media print, screen and (max-width: 68.75em) { /* 1100 */ #skin-4 { --item-width: 25%; display: flex; flex-wrap: wrap; margin-left: calc(-0.5 * var(--gutter-x)); margin-right: calc(-0.5 * var(--gutter-x)); } #skin-4 .item { flex: 0 0 auto; width: var(--item-width); padding-left: calc(0.5 * var(--gutter-x)); padding-right: calc(0.5 * var(--gutter-x)); } #skin-4 > .item + .item { margin-top: 0; padding-top: 0; border-top: 0; } #skin-4 > .item.small { --frame-width: 100%; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; flex-direction: column; } #skin-4 .frame { display: block !important; } #skin-4 .auto-sums { display: none; } } @media print, screen and (max-width: 60em) { /* 960 */ #skin-4 { --item-width: 33.3333333333%; } #skin-4 > .item:last-child { display: none; } }</style><div class="auto-article" id="skin-4"><div class="item large">
+<a class="frame radius" href="https://www.boannews.com/news/articleView.html?idxno=145951" target="_top"><div class="auto-images thumb"><img alt="[배종찬의 보안 빅데이터] 가족마저 손쉽게 속아 넘어가는 ‘AI 딥페이크’" height="525" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145951_127892_2643_1789712803_600.jpg" width="600"/></div></a>
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145951" target="_top"><h2 class="auto-titles line-x2 onload">[배종찬의 보안 빅데이터] 가족마저 손쉽게 속아 넘어가는 ‘AI 딥페이크’</h2></a>
+<div class="auto-sums line-x2">인공지능(AI) 기술의 급격한 발전은 인간의 삶을 비약적으로 편리하게 만들어주었으나, 동시에 ‘AI 딥페이크’라는 미지의 공포를 우리의 일상 속으로 깊숙이 끌어들였다. AI 딥페이...</div>
+</div>
+</div>
+<div class="item">
+<a class="frame radius" href="https://www.boannews.com/news/articleView.html?idxno=145953" target="_top"><div class="auto-images thumb"><img alt="팔로알토 “미토스 써보니 공포마케팅 아냐... 韓 지체할 시간없어”" height="413" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145953_127895_4248_1789717368_600.jpg" width="600"/></div></a>
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145953" target="_top"><h2 class="auto-titles line-x2 onload">팔로알토 “미토스 써보니 공포마케팅 아냐... 韓 지체할 시간없어”</h2></a>
+<div class="auto-sums line-x2">“미토스로 취약점 스캐닝을 해봤는데, 공포 마케팅이 아닙니다. 엔지니어 수천명이 1년간 찾은 취약점과 동일한 결과가 몇시간만에 나왔습니다. 국내에서 얼마나 많은 취약점이 나올지 아...</div>
+</div>
+</div>
+<div class="item">
+<a class="frame radius" href="https://www.boannews.com/news/articleView.html?idxno=145917" target="_top"><div class="auto-images thumb"><img alt="[Global Security TOP 100] 박형진 트루엔 이사 “카메라는 시작일 뿐... AI 영상보안 플랫폼으로 승부수”" height="450" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145917_127833_3454_1789612513_600.jpg" width="600"/></div></a>
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145917" target="_top"><h2 class="auto-titles line-x2 onload">[Global Security TOP 100] 박형진 트루엔 이사 “카메라는 시작일 뿐... AI 영상보안 플랫폼으로 승부수”</h2></a>
+<div class="auto-sums line-x2">트루엔이 고성능 온디바이스 AI 카메라에 머물지 않고 AI 통합 영상보안 플랫폼 기업으로 사업 영역을 넓히고 있다. 올해 해외 시장에서 성장 가능성을 확인한 트루엔은 AI 카메라와...</div>
+</div>
+</div>
+<div class="item small">
+<a class="frame radius" href="https://www.boannews.com/news/articleView.html?idxno=145947" target="_top"><div class="auto-images thumb"><img alt="유명 수학 학원 ‘생각하는황소’ 해킹... 학부모 피싱 사기 주의해야" height="338" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145947_127883_551_1789707301_600.jpg" width="600"/></div></a>
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145947" target="_top"><h2 class="auto-titles line-x2 onload">유명 수학 학원 ‘생각하는황소’ 해킹... 학부모 피싱 사기 주의해야</h2></a>
+<div class="auto-sums line-x2">유명 수학 학원 사이트 침해 사고로 민감한 학생 관련 정보 유출이 의심되는 가운데, 유출 정보를 악용한 보이스피싱 우려도 커지고 있다. 18일 보안 업계에 따르면 대치동 등에 전국...</div>
+</div>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:30px;"></div> </div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item fixed">
+</div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global re__ly02">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item grid-1">
+</div>
+<div class="index-item grid-2">
+</div>
+<div class="index-item grid-3">
+</div>
+<div class="index-item grid-4">
+</div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item fixed">
+<style type="text/css">
+#rollBanner-1 {
+	--gutter-x: 1.25rem;
+	--banner-width: 285px;
+	--item-width: calc(var(--banner-width) + var(--gutter-x));
+	margin-left: calc(-0.5 * var(--gutter-x));
+	margin-right: calc(-0.5 * var(--gutter-x));
+}
+#rollBanner-1 .slick-slide {
+	width: var(--item-width);
+	padding-left: calc(0.5 * var(--gutter-x));
+	padding-right: calc(0.5 * var(--gutter-x));
+}
+#rollBanner-1 .banner_box {margin-bottom: 0 !important}
+#rollBanner-1 .banner_box img {border-radius: var(--global-border-radius, .375rem)}
+</style>
+<div class="rolling-bn banner-multi-box" data-autoplay="Y" data-autoplay-speed="5" data-column-num="4" data-effect-type="horizon" data-move-display="arrow" data-random="Y" data-row-num="1" data-scroll-num="1" data-speed="300" id="rollBanner-1">
+<div class="slick-slide"><!--메인페이지 CS특집--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/65.js?1789533359_65"></script><!--//메인페이지 CS특집--></div><div class="slick-slide"><!--메인페이지 중앙 위즈코리아--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/52.js?1789533359_52"></script><!--//메인페이지 중앙 위즈코리아--></div><div class="slick-slide"><!--ISEC  특별후원 마이크로소프트--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/109.js?1789533359_109"></script><!--//ISEC  특별후원 마이크로소프트--></div><div class="slick-slide"><!--ISEC 특별후원 포티넷--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/108.js?1789533359_108"></script><!--//ISEC 특별후원 포티넷--></div><div class="slick-slide"><!--ISEC 특별후원 유플러스--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/107.js?1789533359_107"></script><!--//ISEC 특별후원 유플러스--></div><div class="slick-slide"><!--ISEC 특별후원 그룹아이비--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/106.js?1789533359_106"></script><!--//ISEC 특별후원 그룹아이비--></div><div class="slick-slide"><!--ISEC 특별후원 유넷시스템즈--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/105.js?1789533359_105"></script><!--//ISEC 특별후원 유넷시스템즈--></div><div class="slick-slide"><!--ISEC 특별후원 클루커스--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/104.js?1789533359_104"></script><!--//ISEC 특별후원 클루커스--></div><div class="slick-slide"><!--ISEC  특별후원 KT--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/103.js?1789533359_103"></script><!--//ISEC  특별후원 KT--></div><div class="slick-slide"><!--ISEC 특별후원 네이버--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/102.js?1789533359_102"></script><!--//ISEC 특별후원 네이버--></div><div class="slick-slide"><!--ISEC 특별후원 두나무--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/101.js?1789533359_101"></script><!--//ISEC 특별후원 두나무--></div><div class="slick-slide"><!--다온기술--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/117.js?1789533359_117"></script><!--//다온기술--></div></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	function shuffle(elements) {
+		for (let i = elements.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[elements[i], elements[j]] = [elements[j], elements[i]];
+		}
+		return elements;
+	}
+	
+	var $slider = $('#rollBanner-1');
+	/*
+	var slider_effect_type = $slider.data('effect-type');
+	var slider_row_num = $slider.data('row-num');
+	var slider_column_num = parseInt($slider.data('column-num'));
+	var slider_scroll_num = parseInt($slider.data('scroll-num'));
+	*/
+	
+	// 램덤전환 옵션이 Y일 때 랜덤 설정
+	if($slider.data('random') == 'Y') {
+		var slides = $slider.children().toArray();
+		$slider.empty().append(shuffle(slides));
+	}
+	
+    $slider.slick({
+        slidesToShow: 4,
+		slidesToScroll: 1,
+		arrows: false, // 화살표표시
+        prevArrow: '<button type="button" class="roll-btns btn-prev slick-arrow" aria-label="prev"><i class="icon-angle-left-thin"></i></button>',
+        nextArrow: '<button type="button" class="roll-btns btn-next slick-arrow" aria-label="next"><i class="icon-angle-right-thin"></i></button>',
+		dots: false,
+        dotsClass: 'auto-pager',
+        infinite: true,
+		autoplay: true, // 자동전환
+		autoplaySpeed: 5000, // 자동전환속도
+		speed: 600, // 넘기는 속도
+		draggable: true, // 제스처(모바일용)
+        variableWidth: true,
+		responsive: [
+			{
+				breakpoint: 1400,
+				settings: {
+					arrows: false,
+				}
+			},
+			{
+				breakpoint: 1200,
+				settings: {
+					arrows: false,
+					variableWidth: false,
+				}
+			},
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 3,
+					arrows: false,
+					autoplay: true,
+					variableWidth: false,
+				}
+			},
+			{
+				breakpoint: 700,
+				settings: {
+					slidesToShow: 2,
+					arrows: false,
+					autoplay: true,
+					variableWidth: false,
+				}
+			},
+			{
+				breakpoint: 400,
+				settings: {
+					slidesToShow: 1,
+					arrows: false,
+					autoplay: true,
+					variableWidth: false,
+				}
+			}
+		]
+	});
+});
+</script>
+<div class="box-margins" style="margin-bottom:3.125rem"></div> </div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global re__ly03">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item grid-1">
+<article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN13&amp;view_type=sm" target="_top">인사이트</a></header>
+<section class="content"><style>#skin-5 { --gutter-x: 1.875rem; --gutter-y: 1.5rem; --item-large-width: calc(360px + var(--gutter-x)); --item-width: calc(100% - var(--item-large-width)); --nd-atx-title-margin: 0 0 .75rem; --nd-atx-title-font-size: 1.125rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 26px; --nd-atx-summary-font-size: .9375rem; } #skin-5 > .item { display: none; float: left; width: var(--item-width); } /* 반응형으로 PC에서는 3건만 보이게 설정 */ #skin-5 .item:nth-child(-n + 3) { display: block; } #skin-5 > .item.large { --nd-atx-title-margin: .9375rem 0 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-line-height: 28px; width: var(--item-large-width); padding-right: var(--gutter-x); } #skin-5 > .item:not(.large) + .item { margin-top: var(--gutter-y); padding-top: var(--gutter-y); border-top: 1px solid var(--nd-gray-200); } #skin-5 .frame { margin-bottom: 1.25rem; } @media print, screen and (max-width: 43.75em) { #skin-5 { --gutter-x: 0; --gutter-y: .9375rem; --item-large-width: 100%; --item-width: 100%; --nd-atx-title-margin: 0; } #skin-5 > .item { display: block; float: none; } #skin-5 > .item.large { --nd-atx-title-font-size: 1.875rem; --nd-atx-title-line-height: 38px; margin-bottom: calc(1.5 * var(--gutter-y)); padding-bottom: calc(1.5 * var(--gutter-y)); border-bottom: 1px solid var(--nd-gray-200); } #skin-5 > .item:not(.large) + .item { padding-top: 0 !important; border-top: 0 !important; } #skin-5 .item:not(.large) .auto-titles { -webkit-line-clamp: 1; } #skin-5 .auto-sums { display: none; } }</style><div class="auto-article" id="skin-5">
+<div class="item large">
+<a class="frame radius line" href="https://www.boannews.com/news/articleView.html?idxno=145953" target="_top"><div class="auto-images thumb"><img alt="팔로알토 “미토스 써보니 공포마케팅 아냐... 韓 지체할 시간없어”" height="413" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145953_127895_4248_1789717368_600.jpg" width="600"/></div></a>
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145953" target="_top"><h2 class="auto-titles line-x2 onload">팔로알토 “미토스 써보니 공포마케팅 아냐... 韓 지체할 시간없어”</h2></a>
+</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145930" target="_top"><h2 class="auto-titles line-x2 onload">“기계의 속도에 압도” 사이버 훈련 해외 참가자가 본 ‘자율형 AI 방어팀’의 위력</h2></a>
+<div class="auto-sums line-x3">“미국이나 유럽 등 세계 사이버 훈련을 두루 다녀봤지만, APEX는 기존의 틀에 갇히지 않고 AI 도입과 복합 시나리오를 과감하게 시도하는 가장 혁신적이고 도전적인 훈련입니다. 작...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145928" target="_top"><h2 class="auto-titles line-x2 onload">“AI, 수비보다 공격에 압도적 유리”... CSK 2026서 사이버전 패러다임 진단</h2></a>
+<div class="auto-sums line-x3">“해커의 프롬프트 한 줄에 AI가 스스로 취약점을 뚫어내는 ‘자율 공격’의 시대가 열렸습니다. 파편화된 샌드박스나 규제만으로는 기계의 속도를 막을 수 없으며, 이제는 연결된 생태계...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145924" target="_top"><h2 class="auto-titles line-x2 onload">“정부 사업 N2SF 반영 미흡해”... 국정원, ‘기획부터 내재화’ 추진</h2></a>
+<div class="auto-sums line-x3">“각 기관의 정보화 사업에 국가망 보안체계(N2SF) 반영이 미흡했음이 확인됐습니다. 기획과 예산 요구 단계부터 반영될 수 있도록 세부 절차를 수립 중입니다.”국정원 관계자는 17...</div>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div> </div>
+<div class="index-item grid-2">
+<article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N7&amp;view_type=sm" target="_top">칼럼</a></header>
+<section class="content"><style>#skin-6 { --gutter-x: 1.5rem; --gutter-y: 1.25rem; --frame-width: 5rem; --nd-atx-image-border-radius: 50%; --nd-atx-title-font-size: 1.125rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 26px; } #skin-6 > .item { display: flex; flex-direction: row; align-items: center; gap: var(--gutter-x); padding: .3125rem 2.5rem .3125rem .3125rem; background-color: #eee; border-radius: 50em; } #skin-6 > .item::after { content: normal; } #skin-6 > .item + .item { margin-top: var(--gutter-y); } #skin-6 > .item .frame { flex: 0 0 auto; width: var(--frame-width); max-width: 100%; } #skin-6 .item > *:not(.frame) { flex: 1 1 0; min-width: 0; max-width: 100%; }</style><div class="auto-article" id="skin-6"><div class="item">
+<a class="frame ratio-11 radius" href="https://www.boannews.com/news/articleView.html?idxno=145951" target="_top"><div class="auto-images thumb"><img alt="[배종찬의 보안 빅데이터] 가족마저 손쉽게 속아 넘어가는 ‘AI 딥페이크’" height="525" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145951_127892_2643_1789712803_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145951" target="_top"><h2 class="auto-titles line-x2 onload">[배종찬의 보안 빅데이터] 가족마저 손쉽게 속아 넘어가는 ‘AI 딥페이크’</h2></a>
+</div>
+<div class="item">
+<a class="frame ratio-11 radius" href="https://www.boannews.com/news/articleView.html?idxno=145901" target="_top"><div class="auto-images thumb"><img alt="[김정덕의 지속가능 보안-8] 숫자의 거짓말: ‘심슨의 역설’과 1% 허브의 붕괴" height="335" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145901_127806_5711_1789549037_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145901" target="_top"><h2 class="auto-titles line-x2 onload">[김정덕의 지속가능 보안-8] 숫자의 거짓말: ‘심슨의 역설’과 1% 허브의 붕괴</h2></a>
+</div>
+<div class="item">
+<a class="frame ratio-11 radius" href="https://www.boannews.com/news/articleView.html?idxno=145864" target="_top"><div class="auto-images thumb"><img alt="[보안을 해킹하다] 프로메테우스의 불과 미노스의 미로" height="335" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145864_127759_3845_1789454332_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145864" target="_top"><h2 class="auto-titles line-x2 onload">[보안을 해킹하다] 프로메테우스의 불과 미노스의 미로</h2></a>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div> </div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global re__ly03">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item grid-1">
+<article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN7&amp;view_type=sm" target="_top">국제</a></header>
+<section class="content"><style>#skin-7 { --gutter-x: 1.875rem; --gutter-y: 1.5rem; --item-large-width: calc(360px + var(--gutter-x)); --item-width: calc(100% - var(--item-large-width)); --nd-atx-title-margin: 0 0 .75rem; --nd-atx-title-font-size: 1.125rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 26px; --nd-atx-summary-font-size: .9375rem; } #skin-7 > .item { display: none; float: left; width: var(--item-width); } /* 반응형으로 PC에서는 3건만 보이게 설정 */ #skin-7 .item:nth-child(-n + 3) { display: block; } #skin-7 > .item.large { --nd-atx-title-margin: .9375rem 0 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-line-height: 28px; width: var(--item-large-width); padding-right: var(--gutter-x); } #skin-7 > .item:not(.large) + .item { margin-top: var(--gutter-y); padding-top: var(--gutter-y); border-top: 1px solid var(--nd-gray-200); } #skin-7 .frame { margin-bottom: 1.25rem; } @media print, screen and (max-width: 43.75em) { #skin-7 { --gutter-x: 0; --gutter-y: .9375rem; --item-large-width: 100%; --item-width: 100%; --nd-atx-title-margin: 0; } #skin-7 > .item { display: block; float: none; } #skin-7 > .item.large { --nd-atx-title-font-size: 1.875rem; --nd-atx-title-line-height: 38px; margin-bottom: calc(1.5 * var(--gutter-y)); padding-bottom: calc(1.5 * var(--gutter-y)); border-bottom: 1px solid var(--nd-gray-200); } #skin-7 > .item:not(.large) + .item { padding-top: 0 !important; border-top: 0 !important; } #skin-7 .item:not(.large) .auto-titles { -webkit-line-clamp: 1; } #skin-7 .auto-sums { display: none; } }</style><div class="auto-article" id="skin-7">
+<div class="item large">
+<a class="frame radius line" href="https://www.boannews.com/news/articleView.html?idxno=145959" target="_top"><div class="auto-images thumb"><img alt="제미나이도 보안테스트 중 외부기관 해킹" height="325" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145959_127921_4243_1789800163_600.jpg" width="600"/></div></a>
+<div class="auto-content">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145959" target="_top"><h2 class="auto-titles line-x2 onload">제미나이도 보안테스트 중 외부기관 해킹</h2></a>
+</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145958" target="_top"><h2 class="auto-titles line-x2 onload">“앤트로픽 클로드로 오픈AI 해킹 성공”... 포상금 900만원</h2></a>
+<div class="auto-sums line-x3">앤트로픽의 AI 모델인 클로드를 활용해 오픈AI 해킹 시도에 성공한 사례가 나왔다. 이를 시도한 연구원들은 오픈AI에 제보해 900만원의 포상금을 받았다.AI 보안 연구업체 해크트...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145957" target="_top"><h2 class="auto-titles line-x2 onload">“AI 허위보고서로 미-중 전쟁날뻔”... 미군, 중국선박 나포하려다 직전 중단</h2></a>
+<div class="auto-sums line-x3">미군이 AI의 허위 보고서를 근거로 중동 해역에서 중국 선박을 나포하려다 작전 실행 직전 중단하는 아찔한 일이 발생했다.18일(현지시간) CNN의 보도에 따르면, 이란과의 전쟁이 ...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145943" target="_top"><h2 class="auto-titles line-x2 onload">돈만 내면 남의 서버가 멈췄다... FBI, DDoS 대행 사이트 나이트메어스트레서 도메인 압수</h2></a>
+<div class="auto-sums line-x3">미국 연방수사국(FBI)이 세계에서 가장 오래 운영된 분산서비스거부(DDoS) 공격 플랫폼 중 하나인 ‘나이트메어스트레서’(NightmareStresser)의 도메인을 압수했다고 ...</div>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div> </div>
+<div class="index-item grid-2">
+<article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN1&amp;view_type=sm" target="_top">인터뷰</a></header>
+<section class="content"><style>#skin-8 { --gutter-x: 1.25rem; --gutter-y: 1.25rem; --frame-width: 110px; --nd-atx-title-font-size: 1.125rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 26px; } #skin-8 > .item { display: flex; flex-direction: row; align-items: center; gap: var(--gutter-x); } #skin-8 > .item::after { content: normal; } #skin-8 > .item + .item { margin-top: var(--gutter-y); } #skin-8 > .item .frame { flex: 0 0 auto; width: var(--frame-width); max-width: 100%; } #skin-8 .item > *:not(.frame) { flex: 1 1 0; min-width: 0; max-width: 100%; }</style><div class="auto-article" id="skin-8"><div class="item">
+<a class="frame ratio-43 radius" href="https://www.boannews.com/news/articleView.html?idxno=145917" target="_top"><div class="auto-images thumb"><img alt="[Global Security TOP 100] 박형진 트루엔 이사 “카메라는 시작일 뿐... AI 영상보안 플랫폼으로 승부수”" height="450" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145917_127833_3454_1789612513_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145917" target="_top"><h2 class="auto-titles line-x2 onload">[Global Security TOP 100] 박형진 트루엔 이사 “카메라는 시작일 뿐... AI 영상보안 플랫폼으로 승부수”</h2></a>
+</div>
+<div class="item">
+<a class="frame ratio-43 radius" href="https://www.boannews.com/news/articleView.html?idxno=145868" target="_top"><div class="auto-images thumb"><img alt="[인터뷰] 이재영 스크립터스 대표, 웹의 익명성에 던지는 직구 “당신은 진짜 사람입니까?”" height="415" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145868_127767_5114_1789458676_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145868" target="_top"><h2 class="auto-titles line-x2 onload">[인터뷰] 이재영 스크립터스 대표, 웹의 익명성에 던지는 직구 “당신은 진짜 사람입니까?”</h2></a>
+</div>
+<div class="item">
+<a class="frame ratio-43 radius" href="https://www.boannews.com/news/articleView.html?idxno=145466" target="_top"><div class="auto-images thumb"><img alt="[인터뷰] 구형모 포커스에이아이 대표이사, “현실을 움직이는 ‘Physical AI’로 도약”" height="442" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145466_127405_4716_1788223637_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145466" target="_top"><h2 class="auto-titles line-x2 onload">[인터뷰] 구형모 포커스에이아이 대표이사, “현실을 움직이는 ‘Physical AI’로 도약”</h2></a>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div> </div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global re__ly03">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item grid-1">
+<article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN3&amp;view_type=sm" target="_top">보안 리포트</a></header>
+<section class="content"><style>#skin-9 { --gutter-x: 1.875rem; --gutter-y: var(--gutter-x); --item-width: 50%; --nd-atx-image-ratio: 1 / 0.835; --nd-atx-subtitle-margin: 0 0 1.25rem; --nd-atx-subtitle-font-size: 1.25rem; --nd-atx-subtitle-font-weight: 700; --nd-atx-subtitle-line-height: 28px; --nd-atx-title-font-size: var(--nd-atx-subtitle-font-size); --nd-atx-title-font-weight: var(--nd-atx-subtitle-font-weight); --nd-atx-title-line-height: var(--nd-atx-subtitle-line-height); display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--gutter-y)); margin-left: calc(-0.5 * var(--gutter-x)); margin-right: calc(-0.5 * var(--gutter-x)); } #skin-9 > .item { flex: 0 0 auto; width: var(--item-width); margin-top: var(--gutter-y); padding-left: calc(0.5 * var(--gutter-x)); padding-right: calc(0.5 * var(--gutter-x)); } #skin-9 .frame { margin-bottom: 1.25rem; } @media print, screen and (max-width: 43.75em) { #skin-9 { --item-width: 100%; --nd-atx-title-font-size: 1.875rem; --nd-atx-title-line-height: 38px; } #skin-9 .item:not(:first-child) {display:none} }</style><div class="auto-article" id="skin-9">
+<div class="item">
+<a class="frame radius line" href="https://www.boannews.com/news/articleView.html?idxno=145920" target="_top"><div class="auto-images thumb"><img alt="[2026 사이버 모의훈련 솔루션 리포트] ‘연례 행사’ 벗어나는 사이버 모의훈련, AI·공급망 시대 ‘상시 검증’으로" height="400" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145920_127836_3345_1789623234_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145920" target="_top"><h2 class="auto-titles line-x2 onload">[2026 사이버 모의훈련 솔루션 리포트] ‘연례 행사’ 벗어나는 사이버 모의훈련, AI·공급망 시대 ‘상시 검증’으로</h2></a>
+</div>
+<div class="item">
+<a class="frame radius line" href="https://www.boannews.com/news/articleView.html?idxno=145799" target="_top"><div class="auto-images thumb"><img alt="[2026 위협 인텔리전스 리포트] 사이버 전장 나침반 ‘위협 인텔리전스’(TI), AI 시대 보안 인프라로 진화" height="400" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145799_127683_2325_1789122205_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145799" target="_top"><h2 class="auto-titles line-x2 onload">[2026 위협 인텔리전스 리포트] 사이버 전장 나침반 ‘위협 인텔리전스’(TI), AI 시대 보안 인프라로 진화</h2></a>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div> </div>
+<div class="index-item grid-2">
+<article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN14&amp;view_type=sm" target="_top">생활 속 보안</a></header>
+<section class="content"><style>#skin-10 { --gutter-x: 1.25rem; --gutter-y: 1.25rem; --frame-width: 100px; --nd-atx-image-ratio: 5 / 3; --nd-atx-title-font-size: 1.125rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 26px; } #skin-10 .item { display: flex; flex-direction: row; align-items: center; gap: var(--gutter-x); } #skin-10 .item::after { content: normal; } #skin-10 .item + .item { margin-top: var(--gutter-y); } #skin-10 .item .frame { flex: 0 0 auto; width: var(--frame-width); max-width: 100%; } #skin-10 .item > *:not(.frame) { flex: 1 1 0; min-width: 0; max-width: 100%; } @media print, screen and (max-width: 43.75em) { #skin-10:not(#skin-40) { --gutter-y: 0; --item-width: 250px; --frame-width: 100%; overflow-x: auto; margin-right: calc(-1 * var(--nd-user-padding-x)); } #skin-10:not(#skin-40) .auto-wrapper { display: flex; gap: var(--gutter-x); width: max-content; } #skin-10:not(#skin-40) .item { flex-direction: column; width: var(--item-width); } }</style><div class="auto-article" id="skin-10">
+<div class="auto-wrapper"><div class="item">
+<a class="frame radius" href="https://www.boannews.com/news/articleView.html?idxno=144254" target="_top"><div class="auto-images thumb"><img alt="[속담으로 배우는 100가지 보안 습관 100] 아는 것이 힘이다(10)-명함 앱도 정보 유출 통로가 된다" height="445" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/144254_127863_5229_1789649549_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=144254" target="_top"><h2 class="auto-titles line-x2 onload">[속담으로 배우는 100가지 보안 습관 100] 아는 것이 힘이다(10)-명함 앱도 정보 유출 통로가 된다</h2></a>
+</div>
+<div class="item">
+<a class="frame radius" href="https://www.boannews.com/news/articleView.html?idxno=144253" target="_top"><div class="auto-images thumb"><img alt="[속담으로 배우는 100가지 보안 습관 99] 아는 것이 힘이다(9)-카페에서 노트북 두고 가면 생기는 일" height="398" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/144253_127864_3827_1789652307_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=144253" target="_top"><h2 class="auto-titles line-x2 onload">[속담으로 배우는 100가지 보안 습관 99] 아는 것이 힘이다(9)-카페에서 노트북 두고 가면 생기는 일</h2></a>
+</div>
+<div class="item">
+<a class="frame radius" href="https://www.boannews.com/news/articleView.html?idxno=144252" target="_top"><div class="auto-images thumb"><img alt="[속담으로 배우는 100가지 보안 습관 98] 아는 것이 힘이다(8)-공공장소 통화, 왜 위험할까" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/202606/144252_126577_1354_v150.jpg"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=144252" target="_top"><h2 class="auto-titles line-x2 onload">[속담으로 배우는 100가지 보안 습관 98] 아는 것이 힘이다(8)-공공장소 통화, 왜 위험할까</h2></a>
+</div>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:30px;"></div><article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN10&amp;view_type=sm" target="_top">인사 · 부고</a></header>
+<section class="content"><style>#skin-11 { --gutter-y: 0.9375rem; --nd-atx-title-font-size: 1rem; --nd-atx-title-font-weight: 400; } #skin-11 > .item + .item { margin-top: var(--gutter-y); } /* view */ #article-view #skin-11 { --gutter-y: 1.25rem; --nd-atx-title-font-size: 1.125rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 26px; }</style><div class="auto-article" id="skin-11"><div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145952" target="_top"><h2 class="auto-titles line-x1 onload">[인사] 과학기술정보통신부</h2></a>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145879" target="_top"><h2 class="auto-titles line-x1 onload">[부고] 송재훈 쿠팡 이사 모친상</h2></a>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145856" target="_top"><h2 class="auto-titles line-x1 onload">[부고] 오동환 한국인터넷진흥원 AI데이터안전활용단장 부친상</h2></a>
+</div>
+</div></section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div> </div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global re__ly04">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item grid-1">
+</div>
+<div class="index-item grid-2">
+</div>
+<div class="index-item grid-3">
+</div>
+<div class="index-item grid-4">
+</div>
+<div class="index-item grid-5">
+</div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item fixed">
+<style type="text/css">
+#rollBanner-2 {
+	--gutter-x: 1.25rem;
+	--banner-width: 224px;
+	--item-width: calc(var(--banner-width) + var(--gutter-x));
+	margin-left: calc(-0.5 * var(--gutter-x));
+	margin-right: calc(-0.5 * var(--gutter-x));
+}
+#rollBanner-2 .slick-slide {
+	width: var(--item-width);
+	padding-left: calc(0.5 * var(--gutter-x));
+	padding-right: calc(0.5 * var(--gutter-x));
+}
+#rollBanner-2 .banner_box {margin-bottom: 0 !important}
+#rollBanner-2 .banner_box img {border-radius: var(--global-border-radius, .375rem)}
+</style>
+<div class="rolling-bn banner-multi-box" data-autoplay="Y" data-autoplay-speed="5" data-column-num="5" data-effect-type="horizon" data-move-display="arrow" data-random="Y" data-row-num="1" data-scroll-num="1" data-speed="300" id="rollBanner-2">
+<div class="slick-slide"><!--메인페이지 VS특집--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/62.js?1789699258_62"></script><!--//메인페이지 VS특집--></div><div class="slick-slide"><!--메인페이지 CS특집--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/71.js?1789699258_71"></script><!--//메인페이지 CS특집--></div><div class="slick-slide"><!--메인페이지 AC특집--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/57.js?1789699258_57"></script><!--//메인페이지 AC특집--></div><div class="slick-slide"><!--메인페이지 CS특집2--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/112.js?1789699258_112"></script><!--//메인페이지 CS특집2--></div><div class="slick-slide"><!--메인페이지 10월 CS3--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/124.js?1789699258_124"></script><!--//메인페이지 10월 CS3--></div></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	function shuffle(elements) {
+		for (let i = elements.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[elements[i], elements[j]] = [elements[j], elements[i]];
+		}
+		return elements;
+	}
+	
+	var $slider = $('#rollBanner-2');
+	
+	// 램덤전환 옵션이 Y일 때 랜덤 설정
+	if($slider.data('random') == 'Y') {
+		var slides = $slider.children().toArray();
+		$slider.empty().append(shuffle(slides));
+	}
+	
+    $slider.slick({
+        slidesToShow: 5,
+		slidesToScroll: 1,
+		arrows: false, // 화살표표시
+        prevArrow: '<button type="button" class="roll-btns btn-prev slick-arrow" aria-label="prev"><i class="icon-angle-left-thin"></i></button>',
+        nextArrow: '<button type="button" class="roll-btns btn-next slick-arrow" aria-label="next"><i class="icon-angle-right-thin"></i></button>',
+		dots: false,
+        dotsClass: 'auto-pager',
+        infinite: true,
+		autoplay: false, // 자동전환
+		autoplaySpeed: 5000, // 자동전환속도
+		speed: 600, // 넘기는 속도
+		draggable: true, // 제스처(모바일용)
+        variableWidth: true,
+		responsive: [
+			{
+				breakpoint: 1400,
+				settings: {
+					arrows: false,
+				}
+			},
+			{
+				breakpoint: 1200,
+				settings: {
+					arrows: false,
+					variableWidth: false,
+				}
+			},
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 4,
+					arrows: false,
+					autoplay: true,
+					variableWidth: false,
+				}
+			},
+			{
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 3,
+					arrows: false,
+					autoplay: true,
+					variableWidth: false,
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 2,
+					arrows: false,
+					autoplay: true,
+					variableWidth: false,
+				}
+			},
+		]
+	});
+});
+</script>
+<div class="box-margins" style="margin-bottom:3.125rem"></div> </div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global re__ly06">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item grid-1">
+<style type="text/css">
+#youtube-shorts {
+	--gutter-x: 1.5rem;
+	--frame-width: 200px;
+	--frame-height: 360px;
+	
+	/* auto btn  */
+	--nd-atx-btn-width: 3.125rem;
+	--nd-atx-btn-height: var(--nd-atx-btn-width);
+	--nd-atx-btn-offset-x: calc(-0.5 * var(--nd-atx-btn-width));
+	--nd-atx-btn-offset-y: 50%;
+	--nd-atx-btn-font-size: 2.125rem;
+	--nd-atx-btn-bg: var(--nd-white, #fff);
+	--nd-atx-btn-hover-bg: var(--nd-atx-btn-bg, #fff);
+	--nd-atx-btn-border-radius: 50em;
+	
+	margin-left: calc(-0.5 * var(--gutter-x));
+	margin-bottom: 3.125rem;
+}
+#youtube-shorts .slick-slide {
+	padding-left: calc(0.5 * var(--gutter-x));
+	padding-right: calc(0.5 * var(--gutter-x));
+}
+#youtube-shorts .frame {
+	width: var(--frame-width);
+	height: var(--frame-height);
+}
+
+/* auto btn */
+#youtube-shorts .auto-btn {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	transform: translateY(-50%);
+	box-shadow: 0 0 10px rgba(var(--nd-black-rgb), .25);
+}
+#youtube-shorts .auto-btn.auto-btn-prev {
+	display: none !important;
+	--nd-atx-btn-offset-x: calc((-0.5 * var(--nd-atx-btn-width)) + (0.5 * var(--gutter-x)));
+}
+</style>
+<article class="box-skin idx--box">
+<header class="header">
+<a class="btm-Icon" href="https://www.youtube.com/@bnTV6931" rel="noopener noreferrer" target="_blank">
+			Shorts
+		</a>
+</header>
+<section class="content">
+<div class="auto-article" id="youtube-shorts">
+<div class="slick-slide">
+<a class="frame height-frame radius" href="https://www.youtube.com/watch?v=NxSLTiZbHMI" rel="noopener noreferrer" target="_blank">
+<div class="auto-images thumb">
+<img alt="거실에서 한 말 다 녹음되고 있었다고?! AI 음성 비서 쓰면 당장 꺼야 하는 필수 설정 #AI스피커 #음성비서 #구글어시스턴트 #시리 #빅스비 #음성기록삭제" src="https://i.ytimg.com/vi/NxSLTiZbHMI/maxresdefault.jpg"/>
+</div>
+</a>
+</div>
+<div class="slick-slide">
+<a class="frame height-frame radius" href="https://www.youtube.com/watch?v=djb2GlB_GRU" rel="noopener noreferrer" target="_blank">
+<div class="auto-images thumb">
+<img alt="[보안 프리미엄 리포트] Security Premium Report_vol.263" src="https://i.ytimg.com/vi/djb2GlB_GRU/maxresdefault.jpg"/>
+</div>
+</a>
+</div>
+<div class="slick-slide">
+<a class="frame height-frame radius" href="https://www.youtube.com/watch?v=1Yw0_8NeViI" rel="noopener noreferrer" target="_blank">
+<div class="auto-images thumb">
+<img alt="퇴사할 때 내가 만든 기획서 챙겼다가 경찰서에서 연락 온 이유 #퇴사전주의사항 #파일무단반출 #포트폴리오반출" src="https://i.ytimg.com/vi/1Yw0_8NeViI/maxresdefault.jpg"/>
+</div>
+</a>
+</div>
+<div class="slick-slide">
+<a class="frame height-frame radius" href="https://www.youtube.com/watch?v=EIvrmPyWviQ" rel="noopener noreferrer" target="_blank">
+<div class="auto-images thumb">
+<img alt="계좌이체만 피하면 된다? 이젠 카드결제도 안심할 수 없습니다" src="https://i.ytimg.com/vi/EIvrmPyWviQ/maxresdefault.jpg"/>
+</div>
+</a>
+</div>
+<div class="slick-slide">
+<a class="frame height-frame radius" href="https://www.youtube.com/watch?v=2AW-bk-Matw" rel="noopener noreferrer" target="_blank">
+<div class="auto-images thumb">
+<img alt="카톡방에 등본 그대로 두셨나요? 명의도용 100% 막는 증명서 파일 관리법 #주민등록등본 #가족관계증명서 #개인정보보호 #명의도용예방" src="https://i.ytimg.com/vi/2AW-bk-Matw/maxresdefault.jpg"/>
+</div>
+</a>
+</div>
+</div>
+<script>
+		$(function() {
+			$('#youtube-shorts').slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				arrows: true, // 화살표표시
+				prevArrow: '<button type="button" class="auto-btn auto-btn-icon auto-btn-prev absolute" aria-label="prev"></button>',
+				nextArrow: '<button type="button" class="auto-btn auto-btn-icon auto-btn-next absolute" aria-label="next"></button>',
+				dots: false,
+				dotsClass: 'auto-pager',
+				infinite: true,
+				autoplay: true, // 자동전환
+				autoplaySpeed: 5000, // 자동전환속도
+				speed: 600, // 넘기는 속도
+				draggable: true, // 제스처(모바일용)
+				variableWidth: true,
+				responsive: [
+					{
+						breakpoint: 1200,
+						settings: {
+							arrows: false,
+						}
+					}
+				]
+			});
+		});
+		</script>
+</section>
+</article>
+</div>
+<div class="index-item grid-2">
+<article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN9&amp;view_type=sm" target="_top">카드뉴스</a></header>
+<section class="content"><style>#skin-12 { /* auto btn */ --nd-atx-btn-width: 3.125rem; --nd-atx-btn-height: var(--nd-atx-btn-width); --nd-atx-btn-offset-x: calc(-0.5 * var(--nd-atx-btn-width)); --nd-atx-btn-offset-y: 50%; --nd-atx-btn-font-size: 2.125rem; --nd-atx-btn-bg: var(--nd-white, #fff); --nd-atx-btn-border-radius: 50em; } #user-section #skin-12, #article-view #skin-12 { --nd-atx-btn-width: 2.5rem; --nd-atx-btn-height: var(--nd-atx-btn-width); --nd-atx-btn-font-size: 1.875rem; } /* auto btn */ #skin-12 .auto-btn { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; transform: translateY(-50%); box-shadow: 0 0 10px rgba(var(--nd-black-rgb), .25); } #skin-12 .auto-btn.auto-btn-prev { display: none !important; --nd-atx-btn-offset-x: calc((-0.5 * var(--nd-atx-btn-width)) + (0.5 * var(--gutter-x))); }</style><div class="auto-article" id="skin-12"><div class="slick-slide">
+<a class="frame ratio-11 radius" href="https://www.boannews.com/news/articleView.html?idxno=145944" target="_top"><div class="auto-images thumb"><img alt="[카드뉴스] &quot;보안 점수 100점인데 비번은 다 털렸다?&quot;… 다크웹 쏟아지는 '브라우저 자동 로그인'의 최후" height="1000" loading="lazy" src="https://cdn.boannews.com/news/photo/202609/145944_127878_2019.jpg" width="1000"/></div></a>
+</div>
+<div class="slick-slide">
+<a class="frame ratio-11 radius" href="https://www.boannews.com/news/articleView.html?idxno=145884" target="_top"><div class="auto-images thumb"><img alt="[카드뉴스] &quot;신분증 털려 5천만원 빚더미?&quot;… 3분 만에 끝내는 '내 명의 도용' 전수조사 방법" height="1000" loading="lazy" src="https://cdn.boannews.com/news/photo/202609/145884_127781_1744.jpg" width="1000"/></div></a>
+</div>
+<div class="slick-slide">
+<a class="frame ratio-11 radius" href="https://www.boannews.com/news/articleView.html?idxno=145775" target="_top"><div class="auto-images thumb"><img alt='[카드뉴스] "중앙지검 검사라고요?"… 기관 사칭 피싱 전화 단번에 끊어내는 팁' height="1000" loading="lazy" src="https://cdn.boannews.com/news/photo/202609/145775_127651_4930.jpg" width="1000"/></div></a>
+</div>
+</div><script>
+$(function() {
+	const SKIN_12 = $('#skin-12').slick({
+		fade: true,
+		arrows: true, // 화살표표시
+		prevArrow: '<button type="button" class="auto-btn auto-btn-icon auto-btn-prev absolute" aria-label="prev"></button>',
+		nextArrow: '<button type="button" class="auto-btn auto-btn-icon auto-btn-next absolute" aria-label="next"></button>',
+		dots: false,
+		autoplay: true, // 자동전환
+		autoplaySpeed: 2000, // 자동전환속도
+		speed: 600, // 넘기는 속도
+		draggable: true, // 제스처(모바일용)
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					arrows: false,
+				}
+			}
+		]
+	});
+
+});
+</script>
+</section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div> </div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item fixed">
+<article class="box-skin idx--box" style="margin-top:30px">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N2&amp;view_type=sm" target="_top">사건 · 사고</a></header>
+<section class="container">
+<article class="skin-column"><style>#skin-13 { --gutter-x: 1.875rem; --gutter-y: 3.125rem; --nd-atx-title-margin: 1.25rem 0 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; --nd-atx-summary-line-height: 24px; --nd-atx-relation-gap: .9375rem; --nd-atx-relation-padding-left: .9375rem; --nd-atx-relation-icon-offset-x: 0; --nd-atx-relation-icon-offset-y: 32%; --nd-atx-relation-icon-width: 9px; --nd-atx-relation-icon-height: var(--nd-atx-relation-icon-width); --nd-atx-relation-icon-border-width: 0 0 2px 2px; --nd-atx-relation-icon-border-color: #181819; --nd-atx-relation-color: var(--nd-dark); } #skin-13 > .item { display: flex; flex-wrap: wrap; margin: 0 calc(-0.5 * var(--gutter-x)); } #skin-13 > .item::after { content: normal; } #skin-13 > .item + .item { margin-top: var(--gutter-y); } #skin-13 .item > * { padding: 0 calc(0.5 * var(--gutter-x)); } #skin-13 .auto-columns-title { flex: 0 0 auto; width: calc(18.75rem + var(--gutter-x)); } #skin-13 .auto-columns-content { flex: 1 1 0; max-width: 100%; min-width: 0; } #skin-13 .relation-wrap { margin-top: 1.875rem; } #skin-13 .relation-title { display: inline-block; margin-bottom: 1.25rem; padding: .375rem .9375rem; font-size: 1rem; font-weight: 700; color: var(--nd-white, #fff); line-height: 1; background-color: rgba(var(--global-color-rgb), .7); border-radius: 3px; } #skin-13 .auto-relation::before {} @media print, screen and (max-width: 43.75em) { #skin-13 { --nd-atx-title-font-size: 1.875rem; --nd-atx-title-line-height: 38px; --nd-atx-relation-font-size: 1.25rem; --nd-atx-relation-font-weight: 700; --nd-atx-relation-line-height: 28px; } #skin-13 > .item { flex-direction: column; } #skin-13 .auto-columns-title { width: 100%; } #skin-13 .auto-sums { display: none; } }</style><div class="auto-article" id="skin-13"><div class="item">
+<div class="auto-columns-title">
+<a class="frame ratio-32 radius line" href="https://www.boannews.com/news/articleView.html?idxno=145962" target="_top"><div class="auto-images thumb"><img alt="남성 패션 플랫폼 ‘룩핀’, 개인정보 유출 공지...이메일·비밀번호 해시 등" height="349" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145962_127927_2115_1789885276_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145962" target="_top"><h2 class="auto-titles line-x2 onload">남성 패션 플랫폼 ‘룩핀’, 개인정보 유출 공지...이메일·비밀번호 해시 등</h2></a>
+</div>
+<div class="auto-columns-content">
+<div class="auto-sums line-x3">남성 패션 플랫폼 ‘룩핀’ 운영사 레벨13에서 이용자들에게 개인정보 유출을 공지했다. 이메일과 비밀번호 해시 등이 유출됐다는 내용이다. 데이터 분석 도구인 ‘메타베이스’의 보안 취...</div>
+<div class="relation-wrap">
+<div class="relation-title">관련기사</div>
+<div class="auto-relation-container"><a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145947" target="_top">유명 수학 학원 ‘생각하는황소’ 해킹... 학부모 피싱 사기 주의해야</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145935" target="_top">이토마토, 시스템 외부 침입으로 회원 정보 변조</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145922" target="_top">카카오게임즈, 140명 개인정보 유출... "악용 위험 낮다"</a>
+</div>
+</div>
+</div>
+</div>
+</div></article>
+<article class="skin-column"><style>#skin-14 { --gutter-x: 2.5rem; --gutter-y: 1.5rem; --item-width: 50%; --nd-atx-title-margin: 0 0 .75rem 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; display: flex; flex-wrap: wrap; } #skin-14 > .item { flex: 0 0 auto; width: var(--item-width); margin-top: var(--gutter-y); padding-top: var(--gutter-y); border-top: 1px solid var(--nd-gray-200); } #skin-14 > .item:nth-child(-n + 2) { margin-top: 0; padding-top: 0; border-top: 0; } #skin-14 > .item:nth-child(odd) { padding-right: calc(0.5 * var(--gutter-x)); } #skin-14 > .item:nth-child(even) { padding-left: calc(0.5 * var(--gutter-x)); }</style><div class="auto-article" id="skin-14"><div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145959" target="_top"><h2 class="auto-titles line-x2 onload">제미나이도 보안테스트 중 외부기관 해킹</h2></a>
+<div class="auto-sums line-x2">구글의 AI 모델 ‘제미나이’도 보안 테스트 중 외부기관 해킹을 일으킨 것으로 나타났다.18일(현지시간) 월스트리트저널에 따르면, 제미나이는 지난 5월 보안 평가 업체 이레귤러가 ...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145957" target="_top"><h2 class="auto-titles line-x2 onload">“AI 허위보고서로 미-중 전쟁날뻔”... 미군, 중국선박 나포하려다 직전 중단</h2></a>
+<div class="auto-sums line-x2">미군이 AI의 허위 보고서를 근거로 중동 해역에서 중국 선박을 나포하려다 작전 실행 직전 중단하는 아찔한 일이 발생했다.18일(현지시간) CNN의 보도에 따르면, 이란과의 전쟁이 ...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145947" target="_top"><h2 class="auto-titles line-x2 onload">유명 수학 학원 ‘생각하는황소’ 해킹... 학부모 피싱 사기 주의해야</h2></a>
+<div class="auto-sums line-x2">유명 수학 학원 사이트 침해 사고로 민감한 학생 관련 정보 유출이 의심되는 가운데, 유출 정보를 악용한 보이스피싱 우려도 커지고 있다. 18일 보안 업계에 따르면 대치동 등에 전국...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145944" target="_top"><h2 class="auto-titles line-x2 onload">[카드뉴스] "보안 점수 100점인데 비번은 다 털렸다?"… 다크웹 쏟아지는 '브라우저 자동 로그인'의 최후</h2></a>
+<div class="auto-sums line-x2">외형적 보안 평가 지표 개선과 달리, 다크웹을 통한 임직원 계정 및 자격 증명 로그 유출 규모는 사상 최대치를 기록하고 있다. 브라우저 '자동 로그인' 기능에 저장된 계정 및 세션...</div>
+</div>
+</div></article>
+</section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div><article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N3&amp;view_type=sm" target="_top">공공 · 정책</a></header>
+<section class="container">
+<article class="skin-column"><style>#skin-15 { --gutter-x: 1.875rem; --gutter-y: 3.125rem; --nd-atx-title-margin: 1.25rem 0 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; --nd-atx-summary-line-height: 24px; --nd-atx-relation-gap: .9375rem; --nd-atx-relation-padding-left: .9375rem; --nd-atx-relation-icon-offset-x: 0; --nd-atx-relation-icon-offset-y: 32%; --nd-atx-relation-icon-width: 9px; --nd-atx-relation-icon-height: var(--nd-atx-relation-icon-width); --nd-atx-relation-icon-border-width: 0 0 2px 2px; --nd-atx-relation-icon-border-color: #181819; --nd-atx-relation-color: var(--nd-dark); } #skin-15 > .item { display: flex; flex-wrap: wrap; margin: 0 calc(-0.5 * var(--gutter-x)); } #skin-15 > .item::after { content: normal; } #skin-15 > .item + .item { margin-top: var(--gutter-y); } #skin-15 .item > * { padding: 0 calc(0.5 * var(--gutter-x)); } #skin-15 .auto-columns-title { flex: 0 0 auto; width: calc(18.75rem + var(--gutter-x)); } #skin-15 .auto-columns-content { flex: 1 1 0; max-width: 100%; min-width: 0; } #skin-15 .relation-wrap { margin-top: 1.875rem; } #skin-15 .relation-title { display: inline-block; margin-bottom: 1.25rem; padding: .375rem .9375rem; font-size: 1rem; font-weight: 700; color: var(--nd-white, #fff); line-height: 1; background-color: rgba(var(--global-color-rgb), .7); border-radius: 3px; } #skin-15 .auto-relation::before {} @media print, screen and (max-width: 43.75em) { #skin-15 { --nd-atx-title-font-size: 1.875rem; --nd-atx-title-line-height: 38px; --nd-atx-relation-font-size: 1.25rem; --nd-atx-relation-font-weight: 700; --nd-atx-relation-line-height: 28px; } #skin-15 > .item { flex-direction: column; } #skin-15 .auto-columns-title { width: 100%; } #skin-15 .auto-sums { display: none; } }</style><div class="auto-article" id="skin-15"><div class="item">
+<div class="auto-columns-title">
+<a class="frame ratio-32 radius line" href="https://www.boannews.com/news/articleView.html?idxno=145963" target="_top"><div class="auto-images thumb"><img alt="“연체자도 피싱·스팸 차단”... 과기부-통신3사, 추석맞아 사이버 민생범죄 예방" height="400" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145963_127928_119_1789894879_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145963" target="_top"><h2 class="auto-titles line-x2 onload">“연체자도 피싱·스팸 차단”... 과기부-통신3사, 추석맞아 사이버 민생범죄 예방</h2></a>
+</div>
+<div class="auto-columns-content">
+<div class="auto-sums line-x3">과학기술정보통신부(부총리 겸 장관 배경훈)는 추석을 맞아 통신 3사 및 플랫폼 기업과 함께 등 사이버 민생범죄 예방에 나선다. 사이버 위협 모니터링을 강화하고, 통신비 연체자도 본...</div>
+<div class="relation-wrap">
+<div class="relation-title">관련기사</div>
+<div class="auto-relation-container"><a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145911" target="_top">정부, 추석 연휴 24시간 안전관리체계 가동</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145797" target="_top">LG U+, 추석 연휴 앞두고 보이스피싱 긴급 대응 체계 가동</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145775" target="_top">[카드뉴스] "중앙지검 검사라고요?"… 기관 사칭 피싱 전화 단번에 끊어내는 팁</a>
+</div>
+</div>
+</div>
+</div>
+</div></article>
+<article class="skin-column"><style>#skin-16 { --gutter-x: 2.5rem; --gutter-y: 1.5rem; --item-width: 50%; --nd-atx-title-margin: 0 0 .75rem 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; display: flex; flex-wrap: wrap; } #skin-16 > .item { flex: 0 0 auto; width: var(--item-width); margin-top: var(--gutter-y); padding-top: var(--gutter-y); border-top: 1px solid var(--nd-gray-200); } #skin-16 > .item:nth-child(-n + 2) { margin-top: 0; padding-top: 0; border-top: 0; } #skin-16 > .item:nth-child(odd) { padding-right: calc(0.5 * var(--gutter-x)); } #skin-16 > .item:nth-child(even) { padding-left: calc(0.5 * var(--gutter-x)); }</style><div class="auto-article" id="skin-16"><div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145961" target="_top"><h2 class="auto-titles line-x2 onload">KISA, 인터넷 주소 자원 관리 실태 점검 통과... 라우팅 보안 시험장 개방</h2></a>
+<div class="auto-sums line-x2">한국인터넷진흥원(KISA, 원장 이상중)은 아·태지역 인터넷 주소 관리 기구(APNIC, Asia-Pacific Network Information Centre) ‘인터넷 주소 자...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145960" target="_top"><h2 class="auto-titles line-x2 onload">“로그 들여다보는 시대는 갔다”... 국제 사이버 훈련에서 맹활약한 자율형 AI</h2></a>
+<div class="auto-sums line-x2">“사이버 공격은 날로 지능화되는데, 사람이 일일이 로그를 들여다보며 대응하는 기존 방식은 이미 한계에 이르렀습니다. 이제 방어의 유일한 해법은 인공지능(AI)을 통한 전 과정의 완...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145950" target="_top"><h2 class="auto-titles line-x2 onload">“국가 R&amp;D 과제에 AI 쓰려면 투명하고 안전하게”... 정부, 국가연구개발 AI 연구윤리 가이드</h2></a>
+<div class="auto-sums line-x2">국가 연구개발에 참여한 연구자는 AI를 연구에 활용할 때 AI 생성물의 오류나 출처 진위 등을 검증해야 한다. 활용한 AI의 모델과 버전 등을 투명하게 공개하고, AI 도구는 허가...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145946" target="_top"><h2 class="auto-titles line-x2 onload">AI 위협 대비... KISA, 세계경제포럼·싱가포르 사이버보안청과 사이버보안 협력</h2></a>
+<div class="auto-sums line-x2">한국인터넷진흥원(KISA, 원장 이상중)은 세계경제포럼(WEF) 사이버보안센터와 싱가포르 사이버보안청(CSA) 대표단을 각각 KISA 서울청사에서 만나 인공지능(AI) 시대 글로벌...</div>
+</div>
+</div></article>
+</section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div><article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N4&amp;view_type=sm" target="_top">비즈니스</a></header>
+<section class="container">
+<article class="skin-column"><style>#skin-17 { --gutter-x: 1.875rem; --gutter-y: 3.125rem; --nd-atx-title-margin: 1.25rem 0 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; --nd-atx-summary-line-height: 24px; --nd-atx-relation-gap: .9375rem; --nd-atx-relation-padding-left: .9375rem; --nd-atx-relation-icon-offset-x: 0; --nd-atx-relation-icon-offset-y: 32%; --nd-atx-relation-icon-width: 9px; --nd-atx-relation-icon-height: var(--nd-atx-relation-icon-width); --nd-atx-relation-icon-border-width: 0 0 2px 2px; --nd-atx-relation-icon-border-color: #181819; --nd-atx-relation-color: var(--nd-dark); } #skin-17 > .item { display: flex; flex-wrap: wrap; margin: 0 calc(-0.5 * var(--gutter-x)); } #skin-17 > .item::after { content: normal; } #skin-17 > .item + .item { margin-top: var(--gutter-y); } #skin-17 .item > * { padding: 0 calc(0.5 * var(--gutter-x)); } #skin-17 .auto-columns-title { flex: 0 0 auto; width: calc(18.75rem + var(--gutter-x)); } #skin-17 .auto-columns-content { flex: 1 1 0; max-width: 100%; min-width: 0; } #skin-17 .relation-wrap { margin-top: 1.875rem; } #skin-17 .relation-title { display: inline-block; margin-bottom: 1.25rem; padding: .375rem .9375rem; font-size: 1rem; font-weight: 700; color: var(--nd-white, #fff); line-height: 1; background-color: rgba(var(--global-color-rgb), .7); border-radius: 3px; } #skin-17 .auto-relation::before {} @media print, screen and (max-width: 43.75em) { #skin-17 { --nd-atx-title-font-size: 1.875rem; --nd-atx-title-line-height: 38px; --nd-atx-relation-font-size: 1.25rem; --nd-atx-relation-font-weight: 700; --nd-atx-relation-line-height: 28px; } #skin-17 > .item { flex-direction: column; } #skin-17 .auto-columns-title { width: 100%; } #skin-17 .auto-sums { display: none; } }</style><div class="auto-article" id="skin-17"><div class="item">
+<div class="auto-columns-title">
+<a class="frame ratio-32 radius line" href="https://www.boannews.com/news/articleView.html?idxno=145955" target="_top"><div class="auto-images thumb"><img alt="성현시스템 ‘AF2100’, SBS ‘재벌X형사2’서 지문·BLE 출입통제 기술 선봬" height="414" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145955_127900_1220_1789722740_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145955" target="_top"><h2 class="auto-titles line-x2 onload">성현시스템 ‘AF2100’, SBS ‘재벌X형사2’서 지문·BLE 출입통제 기술 선봬</h2></a>
+</div>
+<div class="auto-columns-content">
+<div class="auto-sums line-x3">SBS 드라마 ‘재벌X형사2’의 주요 배경인 강하경찰서에 성현시스템의 지문리더기 ‘AF2100’이 등장해 눈길을 끌고 있다. 경찰서와 같은 보안이 중요한 공간에 실제 출입통제 리더...</div>
+<div class="relation-wrap">
+<div class="relation-title">관련기사</div>
+<div class="auto-relation-container"><a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=143363" target="_top">[Global Security TOP 100] 김영민 성현시스템 부사장 “플랫폼과 AI 결합으로 통합보안 패전환 가속화”</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=142833" target="_top">“여러 출입보안 시스템 한 화면에서” 성현시스템, 출입통제·로봇 통합관제 솔루션 선봬</a>
+</div>
+</div>
+</div>
+</div>
+</div></article>
+<article class="skin-column"><style>#skin-18 { --gutter-x: 2.5rem; --gutter-y: 1.5rem; --item-width: 50%; --nd-atx-title-margin: 0 0 .75rem 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; display: flex; flex-wrap: wrap; } #skin-18 > .item { flex: 0 0 auto; width: var(--item-width); margin-top: var(--gutter-y); padding-top: var(--gutter-y); border-top: 1px solid var(--nd-gray-200); } #skin-18 > .item:nth-child(-n + 2) { margin-top: 0; padding-top: 0; border-top: 0; } #skin-18 > .item:nth-child(odd) { padding-right: calc(0.5 * var(--gutter-x)); } #skin-18 > .item:nth-child(even) { padding-left: calc(0.5 * var(--gutter-x)); }</style><div class="auto-article" id="skin-18"><div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145954" target="_top"><h2 class="auto-titles line-x2 onload">티피링크, IFA 2026서 Wi-Fi 8·스마트홈 기술 인정받아 3개 제품 혁신상</h2></a>
+<div class="auto-sums line-x2">글로벌 네트워킹 및 스마트홈 선도 기업 티피링크(TP-Link)는 독일 베를린에서 열린 유럽 최대 가전 전시회 ‘IFA 2026’에서 Archer 8 Ultra, Deco 8 Ul...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145958" target="_top"><h2 class="auto-titles line-x2 onload">“앤트로픽 클로드로 오픈AI 해킹 성공”... 포상금 900만원</h2></a>
+<div class="auto-sums line-x2">앤트로픽의 AI 모델인 클로드를 활용해 오픈AI 해킹 시도에 성공한 사례가 나왔다. 이를 시도한 연구원들은 오픈AI에 제보해 900만원의 포상금을 받았다.AI 보안 연구업체 해크트...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145953" target="_top"><h2 class="auto-titles line-x2 onload">팔로알토 “미토스 써보니 공포마케팅 아냐... 韓 지체할 시간없어”</h2></a>
+<div class="auto-sums line-x2">“미토스로 취약점 스캐닝을 해봤는데, 공포 마케팅이 아닙니다. 엔지니어 수천명이 1년간 찾은 취약점과 동일한 결과가 몇시간만에 나왔습니다. 국내에서 얼마나 많은 취약점이 나올지 아...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145949" target="_top"><h2 class="auto-titles line-x2 onload">“AI 강국 향해 뛴다”... 제18회 '사이버 영토 수호 마라톤' 대회</h2></a>
+<div class="auto-sums line-x2">보안인들을 비롯한 여러 유관기관이 AI 강국의 의지를 다지며 달린다.9월 19일 오전 8시 4000여명의 마라토너들이 함께 모여 ‘제18회 사이버 영토 수호 마라톤 대회’ 및 ‘3...</div>
+</div>
+</div></article>
+</section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div><article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N6&amp;view_type=sm" target="_top">IT · 과학</a></header>
+<section class="container">
+<article class="skin-column"><style>#skin-19 { --gutter-x: 1.875rem; --gutter-y: 3.125rem; --nd-atx-title-margin: 1.25rem 0 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; --nd-atx-summary-line-height: 24px; --nd-atx-relation-gap: .9375rem; --nd-atx-relation-padding-left: .9375rem; --nd-atx-relation-icon-offset-x: 0; --nd-atx-relation-icon-offset-y: 32%; --nd-atx-relation-icon-width: 9px; --nd-atx-relation-icon-height: var(--nd-atx-relation-icon-width); --nd-atx-relation-icon-border-width: 0 0 2px 2px; --nd-atx-relation-icon-border-color: #181819; --nd-atx-relation-color: var(--nd-dark); } #skin-19 > .item { display: flex; flex-wrap: wrap; margin: 0 calc(-0.5 * var(--gutter-x)); } #skin-19 > .item::after { content: normal; } #skin-19 > .item + .item { margin-top: var(--gutter-y); } #skin-19 .item > * { padding: 0 calc(0.5 * var(--gutter-x)); } #skin-19 .auto-columns-title { flex: 0 0 auto; width: calc(18.75rem + var(--gutter-x)); } #skin-19 .auto-columns-content { flex: 1 1 0; max-width: 100%; min-width: 0; } #skin-19 .relation-wrap { margin-top: 1.875rem; } #skin-19 .relation-title { display: inline-block; margin-bottom: 1.25rem; padding: .375rem .9375rem; font-size: 1rem; font-weight: 700; color: var(--nd-white, #fff); line-height: 1; background-color: rgba(var(--global-color-rgb), .7); border-radius: 3px; } #skin-19 .auto-relation::before {} @media print, screen and (max-width: 43.75em) { #skin-19 { --nd-atx-title-font-size: 1.875rem; --nd-atx-title-line-height: 38px; --nd-atx-relation-font-size: 1.25rem; --nd-atx-relation-font-weight: 700; --nd-atx-relation-line-height: 28px; } #skin-19 > .item { flex-direction: column; } #skin-19 .auto-columns-title { width: 100%; } #skin-19 .auto-sums { display: none; } }</style><div class="auto-article" id="skin-19"><div class="item">
+<div class="auto-columns-title">
+<a class="frame ratio-32 radius line" href="https://www.boannews.com/news/articleView.html?idxno=145948" target="_top"><div class="auto-images thumb"><img alt="[테크 톡톡] AI 시대의 데이터 폭증, HAMR 기술과 고밀도 스토리지가 해답이다" height="400" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145948_127884_1731_1789708654_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145948" target="_top"><h2 class="auto-titles line-x2 onload">[테크 톡톡] AI 시대의 데이터 폭증, HAMR 기술과 고밀도 스토리지가 해답이다</h2></a>
+</div>
+<div class="auto-columns-content">
+<div class="auto-sums line-x3">생성형 AI와 클라우드 서비스가 확대되면서 데이터센터의 고민도 달라지고 있다. 과거에는 서버와 스토리지의 처리 성능을 높이는 것이 핵심이었다면, 이제는 빠르게 증가하는 데이터를 어...</div>
+<div class="relation-wrap">
+<div class="relation-title">관련기사</div>
+<div class="auto-relation-container"><a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145844" target="_top">씨게이트 테크놀로지, 글로벌 조사 응답 기업 99% ‘AI로 스토리지 수요 증가’ 전망</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=143336" target="_top">씨게이트, 데이터 증가 대응 소비자용 스토리지 3종 출시</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=142733" target="_top">폭증하는 데이터 관리에 대한 씨게이트의 해답 ‘32TB HDD’</a>
+</div>
+</div>
+</div>
+</div>
+</div></article>
+<article class="skin-column"><style>#skin-20 { --gutter-x: 2.5rem; --gutter-y: 1.5rem; --item-width: 50%; --nd-atx-title-margin: 0 0 .75rem 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; display: flex; flex-wrap: wrap; } #skin-20 > .item { flex: 0 0 auto; width: var(--item-width); margin-top: var(--gutter-y); padding-top: var(--gutter-y); border-top: 1px solid var(--nd-gray-200); } #skin-20 > .item:nth-child(-n + 2) { margin-top: 0; padding-top: 0; border-top: 0; } #skin-20 > .item:nth-child(odd) { padding-right: calc(0.5 * var(--gutter-x)); } #skin-20 > .item:nth-child(even) { padding-left: calc(0.5 * var(--gutter-x)); }</style><div class="auto-article" id="skin-20"><div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145904" target="_top"><h2 class="auto-titles line-x2 onload">[AI 시대, 다시 책을 펴다] ‘인공지능 보안_인간의 영역을 넘어서’</h2></a>
+<div class="auto-sums line-x2">그리스로마 신화에 등장하는 대장장이의 신 헤파이토스는 신기하고 유용한 것들을 뚝딱 만들어내는 재주가 있었다. 그의 창조물 중엔 해안을 순찰하는 청동 거인 ‘탈로스’와 진흙으로 정교...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145899" target="_top"><h2 class="auto-titles line-x2 onload">“병원 OT 방치하다 진료 멈춘다”... 포티넷, 의료보안 해법 제시</h2></a>
+<div class="auto-sums line-x2">“2023년 의료기관을 대상으로 운영기술(OT) 보안을 이야기했을 때만 해도 현장의 반응은 ‘시기상조’라는 인식이 지배적이었습니다. 지금은 다릅니다. 환자의 생명과 직결되는 진료와...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145898" target="_top"><h2 class="auto-titles line-x2 onload">애플, iOS 27 보안 업데이트... 악성 이미지로 아이폰 노리는 취약점 등 126건 대거 수정</h2></a>
+<div class="auto-sums line-x2">애플이 14일(현지시각) 새 운영체제를 내놓으면서 취약점을 200개 넘게 한꺼번에 메웠다. 애플이 한 차례에 처리한 것으로는 가장 많은 규모다. 단순히 수정 건수만 많은 것이 아니...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145836" target="_top"><h2 class="auto-titles line-x2 onload">“해킹 기술만큼 발표 실력도 중요해”... 대학 벽 허물고 뭉친 예비 보안인들</h2></a>
+<div class="auto-sums line-x2">AI가 취약점을 찾아내고 해킹까지 하는 시대, 미래 보안 전문가들에게 필요한 역량은 무엇일까? 현업 전문가들은 해킹 기술 못지않게 컴퓨터 과학 기초와 원활한 소통 능력을 꼽는다. ...</div>
+</div>
+</div></article>
+</section>
+</article><div class="box-margins" style="margin-bottom:50px;"></div><article class="box-skin idx--box">
+<header class="header"><a class="btm-Icon" href="https://www.boannews.com/news/articleList.html?sc_section_code=S1N7&amp;view_type=sm" target="_top">오피니언</a></header>
+<section class="container">
+<article class="skin-column"><style>#skin-21 { --gutter-x: 1.875rem; --gutter-y: 3.125rem; --nd-atx-title-margin: 1.25rem 0 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; --nd-atx-summary-line-height: 24px; --nd-atx-relation-gap: .9375rem; --nd-atx-relation-padding-left: .9375rem; --nd-atx-relation-icon-offset-x: 0; --nd-atx-relation-icon-offset-y: 32%; --nd-atx-relation-icon-width: 9px; --nd-atx-relation-icon-height: var(--nd-atx-relation-icon-width); --nd-atx-relation-icon-border-width: 0 0 2px 2px; --nd-atx-relation-icon-border-color: #181819; --nd-atx-relation-color: var(--nd-dark); } #skin-21 > .item { display: flex; flex-wrap: wrap; margin: 0 calc(-0.5 * var(--gutter-x)); } #skin-21 > .item::after { content: normal; } #skin-21 > .item + .item { margin-top: var(--gutter-y); } #skin-21 .item > * { padding: 0 calc(0.5 * var(--gutter-x)); } #skin-21 .auto-columns-title { flex: 0 0 auto; width: calc(18.75rem + var(--gutter-x)); } #skin-21 .auto-columns-content { flex: 1 1 0; max-width: 100%; min-width: 0; } #skin-21 .relation-wrap { margin-top: 1.875rem; } #skin-21 .relation-title { display: inline-block; margin-bottom: 1.25rem; padding: .375rem .9375rem; font-size: 1rem; font-weight: 700; color: var(--nd-white, #fff); line-height: 1; background-color: rgba(var(--global-color-rgb), .7); border-radius: 3px; } #skin-21 .auto-relation::before {} @media print, screen and (max-width: 43.75em) { #skin-21 { --nd-atx-title-font-size: 1.875rem; --nd-atx-title-line-height: 38px; --nd-atx-relation-font-size: 1.25rem; --nd-atx-relation-font-weight: 700; --nd-atx-relation-line-height: 28px; } #skin-21 > .item { flex-direction: column; } #skin-21 .auto-columns-title { width: 100%; } #skin-21 .auto-sums { display: none; } }</style><div class="auto-article" id="skin-21"><div class="item">
+<div class="auto-columns-title">
+<a class="frame ratio-32 radius line" href="https://www.boannews.com/news/articleView.html?idxno=145951" target="_top"><div class="auto-images thumb"><img alt="[배종찬의 보안 빅데이터] 가족마저 손쉽게 속아 넘어가는 ‘AI 딥페이크’" height="525" loading="lazy" src="https://cdn.boannews.com/news/thumbnail/custom/20260920/145951_127892_2643_1789712803_600.jpg" width="600"/></div></a>
+<a href="https://www.boannews.com/news/articleView.html?idxno=145951" target="_top"><h2 class="auto-titles line-x2 onload">[배종찬의 보안 빅데이터] 가족마저 손쉽게 속아 넘어가는 ‘AI 딥페이크’</h2></a>
+</div>
+<div class="auto-columns-content">
+<div class="auto-sums line-x3">인공지능(AI) 기술의 급격한 발전은 인간의 삶을 비약적으로 편리하게 만들어주었으나, 동시에 ‘AI 딥페이크’라는 미지의 공포를 우리의 일상 속으로 깊숙이 끌어들였다. AI 딥페이...</div>
+<div class="relation-wrap">
+<div class="relation-title">관련기사</div>
+<div class="auto-relation-container"><a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145850" target="_top">[배종찬의 보안 빅데이터] 내가 만든 AI 코드가 악성 코드로 변해 버린다면</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145784" target="_top">[배종찬의 보안 빅데이터] 민감 정보까지 털린 ‘강남언니’ 개인정보 유출</a>
+<a class="auto-relation line-x1 onload" href="https://www.boannews.com/news/articleView.html?idxno=145719" target="_top">[배종찬의 보안 빅데이터] 뚫리면 ‘끝장’, 보안 더 중요해진 통신사</a>
+</div>
+</div>
+</div>
+</div>
+</div></article>
+<article class="skin-column"><style>#skin-22 { --gutter-x: 2.5rem; --gutter-y: 1.5rem; --item-width: 50%; --nd-atx-title-margin: 0 0 .75rem 0; --nd-atx-title-font-size: 1.25rem; --nd-atx-title-font-weight: 700; --nd-atx-title-line-height: 28px; --nd-atx-summary-font-size: 1rem; display: flex; flex-wrap: wrap; } #skin-22 > .item { flex: 0 0 auto; width: var(--item-width); margin-top: var(--gutter-y); padding-top: var(--gutter-y); border-top: 1px solid var(--nd-gray-200); } #skin-22 > .item:nth-child(-n + 2) { margin-top: 0; padding-top: 0; border-top: 0; } #skin-22 > .item:nth-child(odd) { padding-right: calc(0.5 * var(--gutter-x)); } #skin-22 > .item:nth-child(even) { padding-left: calc(0.5 * var(--gutter-x)); }</style><div class="auto-article" id="skin-22"><div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145901" target="_top"><h2 class="auto-titles line-x2 onload">[김정덕의 지속가능 보안-8] 숫자의 거짓말: ‘심슨의 역설’과 1% 허브의 붕괴</h2></a>
+<div class="auto-sums line-x2">매월 개최되는 이사회 보고 자리에서 최고경영진이 마주하는 보안 대시보드는 대체로 평온합니다. “전사 패치 준수율 99%”, “보안 규정 준수도 98%”와 같은 높은 지표값들은 조직...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145864" target="_top"><h2 class="auto-titles line-x2 onload">[보안을 해킹하다] 프로메테우스의 불과 미노스의 미로</h2></a>
+<div class="auto-sums line-x2">[편집자 주] 김정덕 교수의 특별 연재 네 번째 시간으로, 책의 제4부 ‘디지털 기술의 명암’을 다룹니다. 통제력을 벗어난 자율형 AI(프로메테우스의 불)와 극도로 복잡해진 소프트...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145850" target="_top"><h2 class="auto-titles line-x2 onload">[배종찬의 보안 빅데이터] 내가 만든 AI 코드가 악성 코드로 변해 버린다면</h2></a>
+<div class="auto-sums line-x2">AI 코드가 엄청난 재앙을 몰고 올 수 있다는 분석 보도에 관련 업계가 요동치고 있다. 빅데이터 분석 플랫폼 썸트렌드(SomeTrend)의 연관어 분석(2026년 8월 14일~9월...</div>
+</div>
+<div class="item">
+<a href="https://www.boannews.com/news/articleView.html?idxno=145829" target="_top"><h2 class="auto-titles line-x2 onload">[김혁준의 실전형 K-시큐리티] 보이지 않는 위협, ‘선제적 방어’로 전환해야</h2></a>
+<div class="auto-sums line-x2">사이버 공격으로 홈페이지가 몇 시간 동안 멈추는 것과 국방·방산 첨단기술이나 통신 인증정보가 수년간 조용히 유출되는 것은 피해의 차원이 다르다. 전자는 피해가 즉시 드러나고 복구 ...</div>
+</div>
+</div></article>
+</section>
+</article><div class="box-margins" style="margin-bottom:80px;"></div>
+<style type="text/css">
+#rollBanner-3 {
+	--gutter-x: 1.25rem;
+	margin-left: calc(-0.5 * var(--gutter-x));
+	margin-right: calc(-0.5 * var(--gutter-x));
+}
+#rollBanner-3 .slick-slide {
+	width: var(--item-width);
+	padding-left: calc(0.5 * var(--gutter-x));
+	padding-right: calc(0.5 * var(--gutter-x));
+}
+#rollBanner-3 .banner_box {margin-bottom: 0 !important}
+#rollBanner-3 .banner_box img {border-radius: var(--global-border-radius, .375rem)}
+</style>
+<div class="rolling-bn banner-multi-box" data-autoplay="Y" data-autoplay-speed="5" data-column-num="5" data-effect-type="horizon" data-move-display="arrow" data-random="N" data-row-num="1" data-scroll-num="1" data-speed="300" id="rollBanner-3">
+<div class="slick-slide"><!--메인페이지 시큐리티컵 골프대회 2026--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/46.js?"></script><!--//메인페이지 시큐리티컵 골프대회 2026--></div><div class="slick-slide"><!--메인페이지 SECON 2027--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/48.js?"></script><!--//메인페이지 SECON 2027--></div><div class="slick-slide"><!--메인페이지 eGISEC 2027--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/49.js?"></script><!--//메인페이지 eGISEC 2027--></div><div class="slick-slide"><!--메인페이지 PIS FAIR 2026--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/45.js?"></script><!--//메인페이지 PIS FAIR 2026--></div><div class="slick-slide"><!--메인페이지 ISEC 2026--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/47.js?"></script><!--//메인페이지 ISEC 2026--></div></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	function shuffle(elements) {
+		for (let i = elements.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[elements[i], elements[j]] = [elements[j], elements[i]];
+		}
+		return elements;
+	}
+	
+	var $slider = $('#rollBanner-3');
+	
+	// 램덤전환 옵션이 Y일 때 랜덤 설정
+	// if($slider.data('random') == 'Y') {
+	// 	var slides = $slider.children().toArray();
+	// 	$slider.empty().append(shuffle(slides));
+	// }
+	
+    $slider.slick({
+        slidesToShow: 5,
+		slidesToScroll: 1,
+		arrows: false, // 화살표표시
+        prevArrow: '<button type="button" class="roll-btns btn-prev slick-arrow" aria-label="prev"><i class="icon-angle-left-thin"></i></button>',
+        nextArrow: '<button type="button" class="roll-btns btn-next slick-arrow" aria-label="next"><i class="icon-angle-right-thin"></i></button>',
+		dots: false,
+        dotsClass: 'auto-pager',
+        infinite: true,
+		autoplay: false, // 자동전환
+		autoplaySpeed: 5000, // 자동전환속도
+		speed: 600, // 넘기는 속도
+		draggable: true, // 제스처(모바일용)
+        variableWidth: false,
+		responsive: [
+			{
+				breakpoint: 1400,
+				settings: {
+					arrows: false,
+				}
+			},
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 3,
+					arrows: false,
+					autoplay: true, // 자동전환
+				}
+			},
+			{
+				breakpoint: 700,
+				settings: {
+					slidesToShow: 2,
+					arrows: false,
+					autoplay: true, // 자동전환
+				}
+			},
+			{
+				breakpoint: 400,
+				settings: {
+					slidesToShow: 1,
+					arrows: false,
+					autoplay: true, // 자동전환
+				}
+			}
+		]
+	});
+});
+</script>
+</div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global re__ly04">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item grid-1">
+</div>
+<div class="index-item grid-2">
+</div>
+<div class="index-item grid-3">
+</div>
+<div class="index-item grid-4">
+</div>
+<div class="index-item grid-5">
+</div>
+</div>
+</div>
+</div>
+<div class="index-grid-container re__global re__ly05">
+<div class="index-width">
+<div class="index-grid">
+<div class="index-item fixed">
+<style type="text/css">
+.shortcut-list {
+	--gutter-x: 1.875rem;
+	--gutter-y: var(--gutter-x);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: stretch;
+	row-gap: var(--gutter-x);
+	column-gap: var(--gutter-y);
+}
+.shortcut-list > .list-item {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+	width: 100%;
+	padding: 1.5rem 1.875rem;
+	background-color: rgba(var(--global-color-rgb), .07);
+	border-radius: var(--global-border-radius, .375rem);
+	transition: all .2s ease-in-out;
+}
+.shortcut-list > .list-item:hover {
+	text-decoration: none;
+	background-color: rgba(var(--global-color-rgb), .12);
+}
+.shortcut-list > .list-item > .link-img {
+	flex: 0 0 auto;
+	width: 80px;
+	text-align: center;
+}
+.shortcut-list .link-content {
+	flex: 1 1 0;
+	max-width: 100%;
+	min-width: 0;
+}
+.shortcut-list .link-title {
+	margin-bottom: .5rem;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+@media print, screen and (max-width: 60em) {	/* 960 */
+	.shortcut-list {
+		--gutter-x: 1.25rem;
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media print, screen and (max-width: 40em) {	/* 640 */
+	.shortcut-list .link-summary br {display:none}
+}
+</style>
+<div class="shortcut-list">
+<a class="list-item" href="http://www.thebn.co.kr/book/2026/" rel="noopener noreferrer" target="_blank">
+<div class="link-img"><img src="https://cdn.boannews.com/image/main-shortcut-icon-01.png"/></div>
+<div class="link-content">
+<div class="link-title">2026 보안시장백서</div>
+<div class="link-summary">
+				보안뉴스 · 시큐리티월드의 '2026 보안시장 백서'<br/>
+				'물리보안'과 '사이버보안' 분할 판매 개시
+			</div>
+</div>
+</a>
+<a class="list-item" href="http://www.thebn.co.kr/premium/" rel="noopener noreferrer" target="_blank">
+<div class="link-img"><img src="https://cdn.boannews.com/image/main-shortcut-icon-02.png"/></div>
+<div class="link-content">
+<div class="link-title">보안뉴스 프리미엄 리포트</div>
+<div class="link-summary">
+				베테랑 전문기자들이 매일, 매주 제공하는<br/>
+				최고의 보안 프리미엄 리포트 절찬리 서비스중입니다.
+			</div>
+</div>
+</a>
+<a class="list-item" href="http://www.securityaward.org/" rel="noopener noreferrer" target="_blank">
+<div class="link-img"><img src="https://cdn.boannews.com/image/main-shortcut-icon-03.png"/></div>
+<div class="link-content">
+<div class="link-title">시큐리티 어워드 코리아</div>
+<div class="link-summary">
+				매년 시큐리티어워드코리아위원회가 보안산업계 각 부문별로<br/>
+				올 한 해 가장 우수한 성과를 창출한 기업을 선정하여 부문별 시상
+			</div>
+</div>
+</a>
+<a class="list-item" href="http://www.thebn.co.kr/top100/" rel="noopener noreferrer" target="_blank">
+<div class="link-img"><img src="https://cdn.boannews.com/image/main-shortcut-icon-04.png"/></div>
+<div class="link-content">
+<div class="link-title">글로벌 시큐리티 TOP 100</div>
+<div class="link-summary">
+				물리보안과 사이버보안 분야에서 국내외에서 매출, 성장 속도, 기술력, 혁신성, 지속가능성 등에서 우수한 평가를 받은 ‘100대 기업’
+			</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div></div> </section>
+<!--// container -->
+<style type="text/css">
+#user-footer {
+	--nd-footer-margin: 1.875rem 0 0;
+	--nd-footer-padding: 3.125rem 0;
+	--nd-footer-bg: var(--nd-light);
+	
+	/* menu */
+	--nd-footer-nav-margin: 0 0 1.5rem;
+	--nd-footer-nav-font-size: 1.125rem;
+	--nd-footer-nav-font-weight: 500;
+	--nd-footer-nav-color: var(--global-title-color);
+	--nd-footer-nav-point-font-weight: 700;
+	--nd-footer-nav-point-color: var(--nd-footer-nav-color);
+	--nd-footer-nav-item-gap: 1.25rem;
+	
+	/* logo */
+	--nd-logo-margin: 0;
+	
+	/* address */
+	--nd-address-font-size: .9375rem;
+	--nd-address-font-weight: 500;
+	
+	border-top: 2px solid var(--global-color);
+}
+#user-footer .index-width {
+	position: relative;
+	display: grid;
+	grid-template-columns: 250px 1fr;
+	grid-template-areas:
+		"logo menu"
+		"logo info";
+	gap: 0 3.125rem;
+}
+
+/* logo */
+#user-footer .footer-logo {
+	grid-area: logo;
+}
+
+/* menu */
+#user-footer .footer-menu {
+	grid-area: menu;
+}
+
+/* info */
+#user-footer .footer-info {
+	grid-area: info;
+}
+
+/* 열린보도원칙 */
+#user-footer .footer-notice {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	gap: .9375rem;
+	margin: 1.25rem 0;
+	font-size: var(--nd-address-font-size, .9375rem);
+	font-weight: var(--nd-address-font-weight, 500);
+	color: var(--nd-address-color, #6c757d);
+}
+#user-footer .notice-title {
+	flex: 0 0 auto;
+	font-weight: 700;
+	color: var(--global-title-color);
+}
+#user-footer .notice-content {
+	flex: 1 1 0;
+	max-width: 100%;
+	min-width: 0;
+}
+#user-footer .notice-content p {
+	margin: 0;
+}
+#user-footer .notice-content .g-manager-info {
+	margin-bottom: .9375rem;
+	color: var(--global-title-color);
+}
+#user-footer .notice-content .g-manager-info > a {
+	color: currentColor;
+}
+#user-footer .notice-link {
+	display: inline-block;
+	padding: .5rem .9375rem;
+	font-size: 1rem;
+	color: var(--nd-white, #fff);
+	line-height: 1;
+	background-color: var(--global-title-color);
+	border-radius: var(--global-border-radius, .375rem);
+}
+
+/* banner */
+#user-footer .footer-banner {
+	position: absolute;
+	right: 0;
+	bottom: 1.25rem;
+	display: flex;
+	align-items: flex-end;
+	gap: 1.5rem;
+}
+
+
+/********************
+* mobile
+********************/
+@media print, screen and (max-width: 75em) {	/* 1200 */
+	#user-footer {
+		/* logo */
+		--nd-logo-max-height: 56px;
+	}
+	#user-footer .index-width {
+		padding: 0 var(--nd-user-padding-x);
+		grid-template-columns: 200px 1fr;
+	}
+	
+	/* banner */
+	#user-footer .footer-banner {
+		right: var(--nd-user-padding-x);
+	}
+}
+@media print, screen and (max-width: 68.75em) {	/* 1100 */
+	#user-footer .index-width {
+		grid-template-columns: repeat(1, auto);
+		grid-template-areas:
+			"menu"
+			"logo"
+			"info";
+	}
+	
+	/* logo */
+	#user-footer .footer-logo {
+		margin-bottom: 1.25rem;
+	}
+}
+@media print, screen and (max-width: 60em) {	/* 960 */
+	#user-footer {
+		/* logo */
+		--nd-logo-max-height: 40px;
+		
+		/* menu */
+		--nd-footer-nav-font-size: 1rem;
+		--nd-footer-nav-item-gap: 0;
+		
+		/* address */
+		--nd-address-divider: none;
+		--nd-address-item-padding-x: 1.25rem;
+		
+		/* ndsoft */
+		--nd-ndsoft-text-align: left;
+	}
+	
+	/* nav */
+	#user-footer .footer-nav {
+		display: grid;
+		grid-template-columns: repeat(3, auto);
+		gap: .625rem 0;
+		width: 100%;
+	}
+	
+	/* address */
+	#user-footer .gl-address-item {
+		padding-right: var(--nd-address-item-padding-x);
+	}
+	#user-footer .gl-address-item:not(.clear) + .gl-address-item:not(.clear) {
+		padding-left: 0;
+	}
+	
+	/* banner */
+	#user-footer .footer-banner {
+		position: relative;
+		right: initial;
+		bottom: initial;
+		margin-top: 1.25rem;
+	}
+}
+@media print, screen and (max-width: 43.75em) {	/* 700 */
+	/* 열린보도원칙 */
+	#user-footer .footer-notice {
+		flex-direction: column;
+	}
+}
+
+</style>
+<footer id="user-footer">
+<div class="index-width">
+<div class="footer-logo user-logo"><img alt="보안뉴스" height="66" loading="lazy" src="https://cdn.boannews.com/image/logo/downlogo_20260630012109.png" width="220"/></div>
+<div class="footer-menu">
+<ul class="footer-nav">
+<li class="footer-nav-item"><a class="footer-nav-link" href="https://www.boannews.com/com/com-1.html" target="_top">매체소개</a></li>
+<li class="footer-nav-item"><a class="footer-nav-link" href="https://www.boannews.com/com/jb.html" target="_top">기사제보</a></li>
+<li class="footer-nav-item"><a class="footer-nav-link" href="https://www.boannews.com/com/ad.html" target="_top">광고문의</a></li>
+<li class="footer-nav-item"><a class="footer-nav-link" href="https://www.boannews.com/com/service.html" target="_top">이용약관</a></li>
+<li class="footer-nav-item footer-nav-point"><a class="footer-nav-link" href="https://www.boannews.com/com/privacy.html" target="_top">개인정보처리방침</a></li>
+<li class="footer-nav-item"><a class="footer-nav-link" href="https://www.boannews.com/com/youthpolicy.html" target="_top">청소년보호정책</a></li>
+<li class="footer-nav-item"><a class="footer-nav-link" href="https://www.boannews.com/com/copyright.html" target="_top">저작권보호정책</a></li>
+<li class="footer-nav-item"><a class="footer-nav-link" href="https://www.boannews.com/com/emailno.html" target="_top">이메일무단수집거부</a></li>
+<li class="footer-nav-item"><a class="footer-nav-link" href="https://www.boannews.com/rssIndex.html" target="_top">RSS</a></li>
+</ul>
+</div>
+<div class="footer-info">
+<ul class="gl-address">
+<li class="gl-address-item">법인명: (주)더비엔</li>
+<li class="gl-address-item">주소: 서울시 마포구 마포대로4다길 41, 15층(마포동, 마포타워)</li>
+<li class="gl-address-item">대표전화: 02-719-6933</li>
+<li class="gl-address-item">팩스: 02-715-8245</li>
+<li class="gl-address-item clear"></li>
+<li class="gl-address-item">청소년보호책임자: 권준 부사장</li>
+<li class="gl-address-item">제호: 보안뉴스</li>
+<li class="gl-address-item">등록번호: 서울 아 00181</li>
+<li class="gl-address-item">등록일: 2006-03-17</li>
+<li class="gl-address-item">최초발행일: 2006-03-17</li>
+<li class="gl-address-item clear"></li>
+<li class="gl-address-item">발행·편집인: 최정식, 최소영 대표</li>
+</ul>
+<!-- 열린보도원칙 //-->
+<div class="footer-notice">
+<div class="notice-title">「열린보도원칙」</div>
+<div class="notice-content">
+<p>
+						당 매체는 독자와 취재원 등 뉴스이용자의 권리 보장을 위해 반론이나 정정보도, 추후보도를 요청할 수 있는 창구를 열어두고 있음을 알려드립니다.
+					</p>
+<div class="g-manager-info">고충처리인 권 준(<a href="mailto:kwonjun@boannews.com">kwonjun@boannews.com</a>)</div>
+<a class="notice-link" href="https://www.boannews.com/news/articleList.html?sc_serial_code=SRN16&amp;view_type=sm" target="_top">반론·정정 보도</a>
+</div>
+</div>
+<!--// 열린보도원칙 -->
+<ul class="gl-address">
+<li class="gl-address-item copyright">C<a href="https://www.boannews.com/admin/adminLoginForm.html" tabindex="-1">o</a>pyright by 보안뉴스 <a href="https://www.boannews.com/index.html" onclick="setCookie('view_pc', 'n', 1);" tabindex="-1">All</a> rights reserved.</li>
+</ul>
+<div class="footer-banner">
+<!--260630_인신위--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/27.js?1782795072"></script><!--//260630_인신위-->
+<!--260630_한국인터넷신문협회--><script async="" src="https://cdn.boannews.com/bannerpop/uploads/js/28.js?1782795077"></script><!--//260630_한국인터넷신문협회-->
+</div>
+<div class="ndsoft"><a href="https://www.ndsoft.co.kr/" rel="nofollow sponsored ugc" target="_blank"><img alt="엔디소프트" height="9" loading="lazy" src="https://cdn.boannews.com/image/ndsoft.svg" width="72"/></a></div>
+</div>
+</div>
+</footer>
+</div>
+<!--// user wrapper -->
+<!-- back to the top //-->
+<button aria-label="위로" class="back-to-top for-mobile" id="back-to-top" type="button"></button>
+<!--// back to the top -->
+</div>
+<!--// user wrap -->
+</div>
+<!--// wrap -->
+<script>
+// back to the top		
+$(document).scroll(function(){
+	var sDocumentHeight = $(document).height() - $(window).height();
+	if($(document).scrollTop() > 0){	
+		$('#back-to-top').fadeIn();
+	}else{
+		$('#back-to-top').fadeOut();
+	}
+});
+
+$('#back-to-top').click(function(){
+	$('html, body').animate( {scrollTop:0}, 100);
+});
+</script>
+<script>
+var bannerpop = new Bannerpop();
+// Popup Json
+var ___popup = [];
+bannerpop.popup();
+</script>
+<!-- 구글 애드센스 S -->
+<script src="https://cdn.boannews.com/adManager/js/lab.js"></script>
+<script>
+jQuery(function($) {
+	setTimeout(function() {
+		$LAB
+		.script("//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+		.wait(function () {
+			var adn = jQuery('.adsbygoogle').length;
+			if (adn > 0) {
+				for (var i = 0; i < adn; i++) {
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				}
+			}
+		});
+	}, 1000);
+});
+</script>
+<!-- 구글 애드센스 E -->
+<script>
+$(document).ready(function(){
+	// 닫기 버튼 자동 노출
+	$('.ad-template.ad-close .ad-view').each(function(){
+		$(this).append('<div class="ad-close-btn"><i class="icon-close"></i></div>');
+	})
+
+	// 닫기 버튼 클릭 시 이벤트
+	$('body').on('click', '.ad-close-btn', function(){
+		$(this).closest('.ad-view').slideUp();
+	})
+
+	// isND
+	var ____is_nd = getCookie('____is_nd');
+	if(____is_nd) {
+				// ND IP만 광고 ID 보이기
+		$('.ad-template').each(function(){
+			$(this).append('<div class="ad-code-id">'+$(this).attr('id')+'</div>');
+		})
+		
+				// 광고 ID 자동 숨김 설정 시
+		$('.ad-code-id').hide();
+
+		$('.ad-template').mouseenter(function(){
+			$(this).find('.ad-code-id').show();
+		}).mouseleave(function(){
+			$(this).find('.ad-code-id').hide();
+		})
+		
+
+			}
+})
+
+
+
+/* ****************************************** */
+/* 날개배너 스크립트  */
+/* ****************************************** */
+$('#wingBanner .wing-banner-left .wing-banner').each(function(){
+	if( $(this).data('scroll') == 'y' ) $(this).addClass('scroll-on');
+});
+
+$(window).scroll(function() {
+	if( $('#wingBanner .wing-banner').length > 0 ){											// 날개배너가 있으면 작동
+
+		var scrollingHeight_L = nonScrollingHeight_L = scrollingHeight_R = nonScrollingHeight_R = 0;
+
+		$('#wingBanner .wing-banner').each(function(idx){
+			var $_this		= $(this),														// 날개배너
+				scroll		= $_this.data('scroll'),										// 날개배너 스크롤 여부
+				topMargin	= $_this.data('top-margin'),									// 날개배너 상단여백
+				downMargin	= $_this.data('down-margin'),									// 날개배너 하단여백
+				duration	= $_this.data('duration'),										// 날개배너 스크롤 속도
+				direction	= $_this.data('direction'),										// 날개배너 위치
+				// bannerTop	= $_this.offset().top,											// 날개배너 상단 위치 (가변)
+				bannderHeight = $_this.outerHeight();										// 날개배너 높이 (고정)
+
+			var fixWingBannertop	= $('#wingBanner').offset().top;						// 날개배너 상단 위치 (고정)
+
+			var articleTitleHeight	= $('#sticky-header.scroll').height();			// 날개배너 스크롤 시 상단 타이틀 높이 (기사 본문 시)
+			if(!articleTitleHeight) articleTitleHeight = 0;
+
+			var $_userFooter		= $('#user-footer'),									// 사이트 Footer
+				userFooterHeight	= $_userFooter.outerHeight();							// 사이트 Footer 높이 (고정)
+
+			var winScrollTop		= $(window).scrollTop(),								// 윈도우 스크롤 위치 (가변)
+				winHeight			= $(window).height(),									// 윈도우 높이
+				docHeight			= $(document).height();									// 페이지 높이
+
+			switch (direction) {															// 날개 배너 위치 별
+				case 'left':
+					if(scroll == 'y') scrollingHeight_L += bannderHeight;					// 순서대로 노출되는 날개배너 중 스크롤 하는 배너의 높이값 (좌)
+					else nonScrollingHeight_L += bannderHeight;								// 순서대로 노출되는 날개배너 중 스크롤 하지 않는 배너의 높이값 (좌)
+					break;
+
+				case 'right':
+					if(scroll == 'y') scrollingHeight_R += bannderHeight;					// 순서대로 노출되는 날개배너 중 스크롤 하는 배너의 높이값 (우)
+					else nonScrollingHeight_R += bannderHeight;								// 순서대로 노출되는 날개배너 중 스크롤 하지 않는 배너의 높이값 (우)
+					break;
+			}
+
+			if(scroll == 'y') {																// 스크롤 배너만 움직임 처리
+				var bannerAllHeight = siteAllHeight = 0;
+
+				// 좌우측 각각 배너 스크롤 처리를 위해 나눠서 처리
+				if(direction == 'left'){																			// 좌측 날개
+					var wingBnTop_L = winScrollTop - fixWingBannertop + topMargin - nonScrollingHeight_L;			// 날개배너 스크롤 위치 (가변)
+
+					if( articleTitleHeight ) wingBnTop_L += articleTitleHeight;										// 기사본문 시 상단 스크롤 타이틀이 나타나면 스크롤 타이틀 만큼 날개배너 위치 조정
+
+					if((fixWingBannertop + nonScrollingHeight_L) < winScrollTop) {
+
+						bannerAllHeight = articleTitleHeight + scrollingHeight_L + 1;								// 상단 타이틀 + 스크롤배너의 총 높이
+						siteAllHeight = winHeight - userFooterHeight + downMargin;									// 윈도우 높이 + 사이트 Footer 높이
+
+						if( (winScrollTop >= ((docHeight - userFooterHeight) - winHeight)) && (bannerAllHeight >= siteAllHeight) ) {					// 사이트 Footer 넘어가는 경우 처리
+							wingBnTop_L -= ((userFooterHeight + downMargin) - (winHeight - (scrollingHeight_L + topMargin + articleTitleHeight)));
+							$('#wingBanner .wing-banner-left .wing-banner.scroll-on').animate({top:wingBnTop_L+"px" },{queue: false, duration: duration});		// 마지막 배너 움직임 처리
+						}
+					} else {
+						wingBnTop_L = 0;																			// 최상단 처리
+					}
+					$_this.animate({top:wingBnTop_L+"px" },{queue: false, duration: duration});
+
+				} else {																							// 우측 날개
+
+					var wingBnTop_R = winScrollTop - fixWingBannertop + topMargin - nonScrollingHeight_R;			// 날개배너 스크롤 위치 (가변)
+
+					if( articleTitleHeight ) wingBnTop_R += articleTitleHeight;										// 기사본문 시 상단 스크롤 타이틀이 나타나면 스크롤 타이틀 만큼 날개배너 위치 조정
+
+					if((fixWingBannertop + nonScrollingHeight_R) < winScrollTop) {
+
+						bannerAllHeight = articleTitleHeight + scrollingHeight_R + 1;								// 상단 타이틀 + 스크롤배너의 총 높이
+						siteAllHeight = winHeight - userFooterHeight + downMargin;									// 윈도우 높이 + 사이트 Footer 높이
+
+						if( (winScrollTop >= ((docHeight - userFooterHeight) - winHeight)) && (bannerAllHeight >= siteAllHeight) ) {					// 사이트 Footer 넘어가는 경우 처리
+							wingBnTop_R -= ((userFooterHeight + downMargin) - (winHeight - (scrollingHeight_R + topMargin + articleTitleHeight)));
+							$('#wingBanner .wing-banner-right .wing-banner.scroll-on').animate({top:wingBnTop_R+"px" },{queue: false, duration: duration});		// 마지막 배너 움직임 처리
+						}
+					} else {
+						wingBnTop_R = 0;																			// 최상단 처리
+					}
+					$_this.animate({top:wingBnTop_R+"px" },{queue: false, duration: duration});
+				}
+			}
+		});
+	}
+
+});
+</script>
+</body>
+</html>
